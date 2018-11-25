@@ -1056,7 +1056,7 @@
         ]
       },
       "entries": [
-        "Your Soul Link partner gets a boost of strength via your link. They can roll a {@dice 1d4} and add the number rolled to either a saving throw, or their first attack roll on their next turn."
+        "Your Soul Link partner gets a desperate surge of defensive strength via your link. They can roll a {@dice 1d4} and add the number rolled to either a saving throw (for a saving throw on the incoming attack), or on their first attack roll on their next turn."
       ]
     }
   ]
