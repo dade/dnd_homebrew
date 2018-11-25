@@ -634,18 +634,18 @@
       "classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Soulborne",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Sorcerer",
+							"name": "Soulborne",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Soulborne",
+							"name": "Adaptive",
 							"source": "BCC"
 						}
 					}
@@ -695,18 +695,18 @@
       "classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Soulborne",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Sorcerer",
+							"name": "Soulborne",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Soulborne",
+							"name": "Adaptive",
 							"source": "BCC"
 						}
 					}
