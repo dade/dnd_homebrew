@@ -475,7 +475,7 @@
                   },
                   {
                     "type": "entries",
-                    "name": "Adaptive Path: Threshhold Paths",
+                    "name": "Adaptive Path: Threshold Paths",
                     "entries": [
                       "Starting their journeys, the soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
                       "Your Reactive Soul ability now acts according to the table below.",
@@ -659,14 +659,14 @@
       },
       "source": "BCC",
       "entries": [
-        "You sacrifice Anima to restore a creature your touch. They regaing hit points equal to {@dice 1d8} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+        "You sacrifice Anima to restore a creature you touch. They regain hit points equal to {@dice 1d8} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
       ],
       "entriesHigherLevel": [
         {
           "type": "entries",
           "name": "Empowered Soul Sacrifice",
           "entries": [
-            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d8|1-9|1d6} per additional Anima spent."
+            "By channeling more Anima into this spell, you can empower the healing received by the target creature. The healing increases by {@scaledice 1d8|1-9|1d6} per additional Anima spent."
           ]
         }
       ],
@@ -721,14 +721,14 @@
       },
       "source": "BCC",
       "entries": [
-        "You sacrifice Anima to restore a creature within range. They regaing hit points equal to {@dice 1d4} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+        "You sacrifice Anima to restore a creature within range. They regain hit points equal to {@dice 1d4} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
       ],
       "entriesHigherLevel": [
         {
           "type": "entries",
           "name": "Empowered Soul Sacrifice",
           "entries": [
-            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d4|1-9|2} per additional Anima spent."
+            "By channeling more Anima into this spell, you can empower the healing received by the target creature. The healing increases by {@scaledice 1d4|1-9|2} per additional Anima spent."
           ]
         }
       ],
@@ -835,8 +835,8 @@
       },
       "source": "BCC",
       "entries": [
-        "As you watch and react to the attack through the Soul Link, you are able to discern the weaknesses in the attacker's defenses. Instantly through your link, you convey the information to you.",
-        "On your partner's next turn, they gain advantage on their first attack roll against the attacker."
+        "As you watch and react to the attack through the Soul Link, you are able to discern the weaknesses in the attacker's defenses. Instantly through your link, the information is conveyed to you.",
+        "On your Soul Link partner's next turn, they gain advantage on their first attack roll against the attacker."
       ]
     },
     {
@@ -886,7 +886,7 @@
       },
       "source": "BCC",
       "entries": [
-        "You unleash a single threatening word laced with subtle enchantments at a creature through the Soul Link that only the target can hear. The target must succeed on a Wisdom saving throw or take {@dice 1d4} psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
+        "Through the Soul Link, you unleash a single threatening word at the attacker- laced with subtle enchantments that only the target can hear. The target must succeed on a Wisdom saving throw or take {@dice 1d4} psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
       ],
       "damageInflict": [
         "psychic"
