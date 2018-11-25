@@ -522,7 +522,7 @@
                           ["Remorse", "{@spell Discerning Eye|bcc}", "{@dice 1d4+2}"],
                           ["Anger", "{@spell Baleful Word|bcc}", "{@dice 1d4+2}"],
                           ["Grief", "{@spell Hell's Bells|bcc}", "{@dice 1d4+2}"],
-                          ["Bonds", "", "{@dice 1d4+2}"]
+                          ["Bonds", "{@spell Protector}", "{@dice 1d4+2}"]
                         ]
                       }
                     ]
@@ -949,6 +949,60 @@
       ],
       "savingThrow": [
         "wisdom"
+      ]
+    },
+    {
+      "name": "Protector",
+      "level": 0,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "An invisible barrier of magical force appears and protects your Soul Link partner. Until the start of their next turn, they have +5 bonus to AC, including against the triggering attack, and they take no damage from magic missile."
       ]
     }
   ]
