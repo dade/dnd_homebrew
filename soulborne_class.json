@@ -258,8 +258,8 @@
 							{
 								"type": "entries",
 								"entries": [
-									"Soulborne Sorcerers are able to change the colour of their soul on the magical spectrum, allowing them to tap into spells based on the chosen colour.",
-                  "Starting at 1st level, you gain master of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching your colour allows you to cast the following spells at their listed Anima cost instead of a spell slot.",
+									"Soulborne are able to change the colour of their soul on the magical spectrum, allowing them to tap into spells based on the chosen colour.",
+                  "Starting at 2nd level, you gain mastery of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching colour allows you to cast the corresponding spells at their listed Anima cost instead of a spell slot.",
                   {
 										"type": "table",
 										"colLabels": [
@@ -269,7 +269,7 @@
 											"col-xs-3 text-align-center", "col-xs-3", "col-xs-3"
 										],
 										"rows": [
-											["Blue", "{@spell Soothing Spirit|bcc} {@spell Soul Sacrifice|bcc}", "See spells"],
+											["Blue", "{@spell Soothing Spirit|bcc}, {@spell Soul Sacrifice|bcc}", "See spells"],
 											["Red", "{@spell Arms of Hadar}", "2"],
 											["Green", "{@spell Shield}", "1"],
 											["Yellow", "{@spell Feather Fall}", "1"],
@@ -607,7 +607,7 @@
 	"spell": [
     {
       "name": "Soul Sacrifice",
-      "level": 1,
+      "level": 0,
       "school": "V",
       "time": [
         {
@@ -668,7 +668,7 @@
     },
     {
       "name": "Soothing Spirit",
-      "level": 1,
+      "level": 0,
       "school": "V",
       "time": [
         {
