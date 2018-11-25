@@ -522,7 +522,7 @@
                           ["Remorse", "{@spell Discerning Eye|bcc}", "{@dice 1d4+2}"],
                           ["Anger", "{@spell Baleful Word|bcc}", "{@dice 1d4+2}"],
                           ["Grief", "{@spell Hell's Bells|bcc}", "{@dice 1d4+2}"],
-                          ["Bonds", "{@spell Protector}", "{@dice 1d4+2}"]
+                          ["Bonds", "{@spell Protector|bcc}", "{@dice 1d4+2}"]
                         ]
                       }
                     ]
