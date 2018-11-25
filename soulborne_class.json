@@ -371,7 +371,7 @@
 					{
 						"name": "Soul Crush",
 						"entries": [
-							"Starting at 18th level, you become a master at reading the souls of your foes in an instant, knowing exactly how to inflict damage to their essence. Target a creature within 60ft and crush their very essence into dust. At the cost of 6 Anima, the targeted creature must make a Constitution check against your Spell Save DC. The creature takes 7d8 + 24 necrotic damage on a failed save, or half as much on a successful one. You may only use this ability once per encounter. You cannot empower this ability with additional Anima. This ability does not affect creatures without a living soul, such as Constructs."
+							"Starting at 18th level, you become a master at reading the souls of your foes in an instant, knowing exactly how to inflict damage to their essence. Target a creature within 60ft and crush their very essence into dust. At the cost of 6 Anima, the targeted creature must make a Constitution check against your Spell Save DC. The creature takes {@dice 7d8 + 24} necrotic damage on a failed save, or half as much on a successful one. You may only use this ability once per encounter. You cannot empower this ability with additional Anima. This ability does not affect creatures without a living soul, such as Constructs."
 						]
 					}
 				],
@@ -420,10 +420,19 @@
 											"Starting at 3rd level, when the creature with which you share the Soul Link is attacked, your emotional response manifests into missiles of Arcane energy.",
 											"This feature may only happen if you have not already used a Reaction, and can only occur once per round when the first attack roll is made but before the result of the roll is given by the GM."
 										]
-									},
+									}
+								]
+							},
+							{
+								"name": "Adaptive Paths",
+								"entries": [
+									"Paths Fluff",
 									{
 										"type": "entries",
-										"name": "Adaptive Path: Threshold"
+										"name": "Threshhold Paths",
+										"entries": [
+											"Threshold Paths"
+										]
 									}
 								]
 							}
@@ -433,7 +442,7 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Adaptive Path: Temptation"
+										"name": "Temptation Paths"
 									}
 								]
 							}
@@ -443,7 +452,7 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Adaptive Path: Transformation"
+										"name": "Transformation Paths"
 									}
 								]
 							}
@@ -453,7 +462,7 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Adaptive Path: Atonement"
+										"name": "Atonement Paths"
 									}
 								]
 							}
