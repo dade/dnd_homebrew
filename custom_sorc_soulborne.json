@@ -4,12 +4,12 @@
       {
         "json": "badgrCustomSoulborne",
         "abbreviation": "BCC",
-        "full": "badgr's Custom Campaign - Soulborne",
+        "full": "badgr's Custom Compendium - Soulborne",
         "authors": [
           "Dale \"badgr_\" Emasiri"
         ],
         "version": "1.0",
-        "url": "https://twitter.com/demasiri",
+        "url": "",
         "targetSchema": "1.0.0"
       }
     ]
