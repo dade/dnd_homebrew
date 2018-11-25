@@ -249,10 +249,14 @@
 										]
 									}
 								]
-							},
+							}
+						]
+					},
+					{
+						"name": "Chromatic Soul",
+						"entries": [
 							{
 								"type": "entries",
-								"name": "Chromatic Soul",
 								"entries": [
 									"Soulborne Sorcerers are able to change the colour of their soul on the magical spectrum, allowing them to tap into spells based on the chosen colour.",
                   "Starting at 1st level, you gain master of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching your colour allows you to cast the following spells at their listed Anima cost instead of a spell slot.",
@@ -265,7 +269,7 @@
 											"col-xs-3 text-align-center", "col-xs-3", "col-xs-3"
 										],
 										"rows": [
-											["Blue", "{@spell Soothing Spirit|bcc}", "{@spell Soul Sacrifice|bcc}"],
+											["Blue", "{@spell Soothing Spirit|bcc} {@spell Soul Sacrifice|bcc}", "See spells"],
 											["Red", "{@spell Arms of Hadar}", "2"],
 											["Green", "{@spell Shield}", "1"],
 											["Yellow", "{@spell Feather Fall}", "1"],
@@ -599,5 +603,129 @@
         }
       ]
     }
-  ] 
+	],
+	"spell": [
+    {
+      "name": "Soul Sacrifice",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "2 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Soulborne",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+      "source": "BCC",
+      "entries": [
+        "You sacrifice Anima to restore a creature your touch. They regaing hit points equal to {@dice 1d8} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Empowered Soul Sacrifice",
+          "entries": [
+            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d8|1-9|1d6} per additional Anima spent."
+          ]
+        }
+      ],
+      "isHeal": true
+    },
+    {
+      "name": "Soothing Spirit",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Soulborne",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+      "source": "BCC",
+      "entries": [
+        "You sacrifice Anima to restore a creature within range. They regaing hit points equal to {@dice 1d4} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Empowered Soul Sacrifice",
+          "entries": [
+            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d4|1-9|2} per additional Anima spent."
+          ]
+        }
+      ],
+      "isHeal": true
+    }
+  ]
 }
