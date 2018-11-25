@@ -548,7 +548,7 @@
                           "col-xs-3", "col-xs-3", "col-xs-3"
                         ],
                         "rows": [
-                          ["Hope", "", "{@dice 1d4+3}"],
+                          ["Hope", "{@spell Hallowed Link|bcc}", "{@dice 1d4+3}"],
                           ["Remorse", "", "{@dice 1d4+3}"],
                           ["Anger", "", "{@dice 1d4+3}"],
                           ["Grief", "", "{@dice 1d4+3}"],
@@ -1003,6 +1003,60 @@
       },
       "entries": [
         "An invisible barrier of magical force appears and protects your Soul Link partner. Until the start of their next turn, they have +5 bonus to AC, including against the triggering attack, and they take no damage from magic missile."
+      ]
+    },
+	{
+      "name": "Hallowed Link",
+	  "source": "BCC",
+      "level": 1,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "entries": [
+        "Your Soul Link partner gets a boost of strength via your link. They can roll a {@dice 1d4} and add the number rolled to either a saving throw, or their first attack roll on their next turn."
       ]
     }
   ]
