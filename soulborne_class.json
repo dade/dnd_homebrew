@@ -8,7 +8,7 @@
         "full": "Soulborne Class",
         "authors": [
           "Dale \"badgr_\" Emasiri",
-          "Elinari"
+          "Tegan \"Elinari\" Harris"
         ],
         "convertedBy": [
           "badgr_"
@@ -217,7 +217,7 @@
 								"type": "entries",
 								"name": "Spellcasting Focus",
 								"entries": [
-									"You have trinket that is infused with a portion of your soul, which can be used as an Arcane Focus for your spell casting. It should be visible at all times."
+									"You have a trinket that is infused with a portion of your soul, which can be used as an Arcane Focus for your spell casting. It should be visible at all times."
 								]
 							}
 						]
@@ -227,7 +227,7 @@
 					{
 						"name": "Anima Economy",
 						"entries": [
-							"With your Arcane prowess growing, your control over your soul grows. While any other person's soul is a singular entity, the Soulborne's soul has grown beyond this constraint. Instead of a single entity, the Souleborne's soul is supplemented by Anima - which are additional fragments of souls that orbit the core entity. These Anima becomes an additional daily resource for the Soulborne.",
+							"With your Arcane prowess growing, your control over your soul grows. While any other person's soul is a singular entity, the Soulborne's soul has grown beyond this constraint. Instead of a single entity, the Soulborne's soul is supplemented by Anima - additional fragments of souls that orbit the core entity. These Anima become an additional daily resource for the Soulborne.",
 							{
 								"type": "entries",
 								"name": "Anima",
@@ -316,7 +316,7 @@
 						"entries": [
 							"After Soul Scrying has been fully accomplished, you must spend 24 uninterrupted hours wearing the shroud before you can gain the benefits of it. You can store a number of shrouds equal to 2 + your Charisma modifier.",
 							"The table below shows an example of Shrouds and their possible effects. As a new Shroud is acquired, the GM will decide with you what the benefits of that Shroud is.",
-							"Starting at 6th level, you have the ability to shroud your soul and alter its make-up to be a perfect match of one that you have previously stored. Spending 1 hour and 25gp worth of materials you can change your Soul Shroud. A Shroud, once equipped, is permanent until you spend an action to wilfully remove or replace it with another. The Shroud you wear persists through unconsciousness and all other effects, but may be dispelled with a high-level Dispel Magic or similar.",
+							"Starting at 6th level, you have the ability to shroud your soul and alter its make-up to be a perfect match of one that you have previously stored. Spending 1 hour and 25gp worth of materials, you can change your Soul Shroud. A Shroud, once equipped, is permanent until you spend an action to wilfully remove or replace it with another. The Shroud you wear persists through unconsciousness and all other effects, but may be dispelled with a high-level Dispel Magic or similar.",
 							{
 								"type": "table",
 								"colLabels": ["Character", "Feature"],
@@ -436,8 +436,8 @@
 							{
 								"name": "Adaptive Soul",
 								"entries": [
-									"Through external strife and conflict, the Adaptive soulborne has spent their entire life thus far willing themselves to be someone else in an attempt to fit in with their surroundings. A survival trait that, in anyone else, would be simply a useful tool has taken hold within the Soulborne's very core and changed how their abilities evolve and manifest. This type of souleborne does not have complete, willful control over their abilities and are instead rule by emotion.",
-									"You also gain the Feature: Adaptive Paths, which adds to your Reactive Soul feature at each level where you gain an Adaptive Soul freature",
+									"Through external strife and conflict, the Adaptive soulborne has spent their entire life thus far willing themselves to be someone else in an attempt to fit in with their surroundings. A survival trait that, in anyone else, would be simply a useful tool, has taken hold within the Soulborne's very core and changed how their abilities evolve and manifest. This type of soulborne does not have complete, willful control over their abilities and are instead ruled by emotion.",
+									"You also gain the Feature: Adaptive Paths, which adds to your Reactive Soul feature at each level where you gain an Adaptive Soul feature",
 									{
 										"name": "Soul Link",
 										"entries": [
@@ -448,7 +448,7 @@
 										"type": "entries",
 										"name": "Reactive Soul",
 										"entries": [
-											"A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent.",
+											"A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the soulborne takes determine the powers granted.",
 											"Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into missiles of Arcane energy.",
 											"This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
 										]
@@ -476,9 +476,10 @@
 									},
 									{
 										"type": "entries",
-										"name": "Threshhold Paths",
+										"name": "Adaptive Path: Threshhold Paths",
 										"entries": [
 											"Starting their journeys, the soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
+											"Your Reactive Soul ability now acts according to the table below.",
 											{
 												"type": "table",
 												"colLabels": [
@@ -505,9 +506,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Temptation Paths",
+										"name": "Adaptive Path: Temptation Paths",
 										"entries": [
 											"As power grows, so does the temptation to abuse that power.",
+											"Your Reactive Soul ability now acts according to the table below.",
 											{
 												"type": "table",
 												"colLabels": [
@@ -534,9 +536,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Transformation Paths",
+										"name": "Adaptive Path: Transformation Paths",
 										"entries": [
 											"For better or worse, the soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
+											"Your Reactive Soul ability now acts according to the table below.",
 											{
 												"type": "table",
 												"colLabels": [
@@ -563,9 +566,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Atonement Paths",
+										"name": "Adaptive Path: Atonement Paths",
 										"entries": [
-											"For the good you may have done, there will be regret and sins to attone. The final stage of the soulborne's journey is one of righting wrongs no matter how small they may seem.",
+											"For the good you may have done, there will be regrets and sins to attone for. The final stage of the soulborne's journey is one of righting wrongs- no matter how small they may seem.",
+											"Your Reactive Soul ability now acts according to the table below.",
 											{
 												"type": "table",
 												"colLabels": [
