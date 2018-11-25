@@ -254,22 +254,22 @@
 								"type": "entries",
 								"name": "Chromatic Soul",
 								"entries": [
-									"FLUFF",
-									{
+									"Soulborne Sorcerers are able to change the colour of their soul on the magical spectrum, allowing them to tap into spells based on the chosen colour.",
+                  "Starting at 1st level, you gain master of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching your colour allows you to cast the following spells at their listed Anima cost instead of a spell slot.",
+                  {
 										"type": "table",
-										"caption": "Anima Points",
 										"colLabels": [
-											"Level", "Available Anima"
+											"Colour", "Spell", "Cost"
 										],
 										"colStyles": [
-											"col-xs-3 text-align-center", "col-xs-3"
+											"col-xs-3 text-align-center", "col-xs-3", "col-xs-3"
 										],
 										"rows": [
-											["2nd", "4"],
-											["6th", "6"],
-											["10th", "8"],
-											["14th", "10"],
-											["19th", "12"]
+											["Blue", "{@spell Soothing Spirit|bcc}", "{@spell Soul Sacrifice|bcc}"],
+											["Red", "{@spell Arms of Hadar}", "2"],
+											["Green", "{@spell Shield}", "1"],
+											["Yellow", "{@spell Feather Fall}", "1"],
+											["Purple", "{@spell Disonnant Whisper}", "2"]
 										]
 									}
 								]
@@ -278,12 +278,6 @@
 					}
 				],
 				[
-					{
-						"name": "Soul Link",
-						"entries": [
-							"Starting at 3rd level, after spending 10 minutes of casting you link souls with another willing creature. This enables the use and activation of Reactive Soul - which triggers when the soul-linked creature is attacked; this triggers on an attack roll, before the GM declares the result of said roll."
-						]
-					},
 					{
 						"name": "Soulborne Metamorphosis",
 						"entries": [
@@ -303,6 +297,30 @@
 				],
 				[],
 				[
+					{
+						"name": "Soul Scrying",
+						"entries": [
+							"Your affinity with the Arcane nature of your innate Soulborne abilities, and your ability to quickly and effectively manipulate your own soul, has naturally evolved to being able to read the souls of others.",
+							"Starting at 6th level, you gain the Soul Scrying feature. When you have completed 8 uninterrupted hours of Soul Scrying, focusing on a single target within 500ft and maintaining concentration on the spell, you come to know the make-up of their soul. You learn the the essence of its being (class,) strength of its Anima (level,) and the purity of the being (alignment.)"
+						]
+					},
+					{
+						"name": "Soul Shroud",
+						"entries": [
+							"After Soul Scrying has been fully accomplished, you must spend 24 uninterrupted hours wearing the shroud before you can gain the benefits of it. You can store a number of shrouds equal to 2 + your Charisma modifier.",
+							"The table below shows an example of Shrouds and their possible effects. As a new Shroud is acquired, the GM will decide with you what the benefits of that Shroud is.",
+							"Starting at 6th level, you have the ability to shroud your soul and alter its make-up to be a perfect match of one that you have previously stored. Spending 1 hour and 25gp worth of materials you can change your Soul Shroud. A Shroud, once equipped, is permanent until you spend an action to wilfully remove or replace it with another. The Shroud you wear persists through unconsciousness and all other effects, but may be dispelled with a high-level Dispel Magic or similar.",
+							{
+								"type": "table",
+								"colLabels": ["Character", "Feature"],
+								"colStyle": ["col-xs-3 text-aling-center", "col-xs-6"],
+								"rows": [
+									["Druid, Lvl6, Neutral Good", "{@class druid|phb|Druidic|druid|phb|druidic 1}, {@class druid|phb|Wild Shape|druid|phb|wild shape 2}"],
+									["Gunslinger, Lvl3, Neutral Good", "{@class fighter|phb|Firearm Proficiency|gunslinger|mercergunslinger|martial archetype 3}, {@class fighter|phb|Trickshot: Deadeye Shot|gunslinger|mercergunslinger|martial archetype 3}"]
+								]
+							}
+						]
+					},
 					{
 						"name": "Soulborne Metamorphosis feature",
 						"entries": [
@@ -326,7 +344,8 @@
 					{
 						"name": "Infuse Anima",
 						"entries": [
-							"FLUFF."
+							"Starting at 10th level, when you cast a spell of 1st level or higher you can infuse your spells with the power of your soul. Take a single damage die of the spell being cast, and for each point of Anima used roll an additional die equal to half of the single damage die.",
+							"Example, {@spell Guiding Bolt} cast at 2nd level causing {@dice 5d6} damage would gain an additional {@dice 1d3} damage per point of Anima infused."
 						]
 					},
 					{
@@ -371,7 +390,7 @@
 					{
 						"name": "Soul Crush",
 						"entries": [
-							"Starting at 18th level, you become a master at reading the souls of your foes in an instant, knowing exactly how to inflict damage to their essence. Target a creature within 60ft and crush their very essence into dust. At the cost of 6 Anima, the targeted creature must make a Constitution check against your Spell Save DC. The creature takes {@dice 7d8 + 24} necrotic damage on a failed save, or half as much on a successful one. You may only use this ability once per encounter. You cannot empower this ability with additional Anima. This ability does not affect creatures without a living soul, such as Constructs."
+							"Starting at 17th level, you become a master at reading the souls of your foes in an instant, knowing exactly how to inflict damage to their essence. Target a creature within 60ft and crush their very essence into dust. At the cost of 6 Anima, the targeted creature must make a Constitution check against your Spell Save DC. The creature takes {@dice 7d8 + 24} necrotic damage on a failed save, or half as much on a successful one. You may only use this ability once per encounter. You cannot empower this ability with additional Anima. This ability does not affect creatures without a living soul, such as Constructs."
 						]
 					}
 				],
@@ -389,8 +408,15 @@
 					{
 						"name": "Master Manipulator",
 						"entries": [
-							"At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+							"At 20th level, you become a force to be reckoned with and a master of manipulating souls. Soul Scrying now takes 1 minute to complete, and Soul Shroud takes 1 hour."
 						]
+					},
+					{
+						"name": "Soulborne Metamorphosis feature",
+						"entries": [
+							"At 20th level, you gain a feature granted by your Soulborne Metamorphosis."
+						],
+						"gainSubclassFeature": true
 					}
 				]
       ],
@@ -404,21 +430,20 @@
 								"name": "Adaptive Soul",
 								"entries": [
 									"Through external strife and conflict, the Adaptive soulborne has spent their entire life thus far willing themselves to be someone else in an attempt to fit in with their surroundings. A survival trait that, in anyone else, would be simply a useful tool has taken hold within the Soulborne's very core and changed how their abilities evolve and manifest. This type of souleborne does not have complete, willful control over their abilities and are instead rule by emotion.",
-									"You also gain the Feature: Adaptive Path, which adds to your Reactive Soul feature at each level where you gain an Adaptive Soul freature",
+									"You also gain the Feature: Adaptive Paths, which adds to your Reactive Soul feature at each level where you gain an Adaptive Soul freature",
 									{
-										"type": "entries",
 										"name": "Soul Link",
 										"entries": [
-											"FLUFF"
+											"Starting at 3rd level, after spending 10 minutes of casting you link souls with another willing creature. This enables the reactionary feature: Reactive Soul."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Reactive Soul",
 										"entries": [
-											"A side effect of the Adaptive Soul is the sway of emotions that dictate their path. Their abilities come from emotional stimuli more often than their willful intent.",
-											"Starting at 3rd level, when the creature with which you share the Soul Link is attacked, your emotional response manifests into missiles of Arcane energy.",
-											"This feature may only happen if you have not already used a Reaction, and can only occur once per round when the first attack roll is made but before the result of the roll is given by the GM."
+											"A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent.",
+											"Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into missiles of Arcane energy.",
+											"This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
 										]
 									}
 								]
@@ -426,12 +451,43 @@
 							{
 								"name": "Adaptive Paths",
 								"entries": [
-									"Paths Fluff",
+									"The nature of the Adaptive Soul is the influence that external factors play on their emotions, and their emotional state dictating the evolution of their Soulborne Metamorphosis.",
+									"At 3rd, 6th, 10th, and 14th level, you gain the Threshold, Temptation, Transformation, and Atonement Paths respectively. The Adaptive soulborne's path is determined by the emotional stimuli that have affected them most profoundly throughout their life.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "inset",
+												"name": "Ruling Emotions",
+												"entries": [
+													"The Ruling Emotion should be based on the character's roleplay and the most impactful, prominent, or present emotional state of the Adaptive soulborne's current milestone.",
+													"Example: at 3rd level, when the Paths first emerge, the backstory of the character and all the events in the first three levels of the Adaptive soulborne's journey thus far will inform the decision. Between 3rd level and 6th level, only the events of the campaign between those milestones should be taken into account unless the GM and player agree otherwise.",
+													"This decision should always be made between the Soulborne player and the GM with agreements on both sides."
+												]
+											}
+										]
+									},
 									{
 										"type": "entries",
 										"name": "Threshhold Paths",
 										"entries": [
-											"Threshold Paths"
+											"Starting their journeys, the soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
+											{
+												"type": "table",
+												"colLabels": [
+													"Ruling Emotion", "Effect", "Damage/Missile"
+												],
+												"colStyles": [
+													"col-xs-3", "col-xs-3", "col-xs-3"
+												],
+												"rows": [
+													["Hope", "Radiant damage", "{@dice 1d4+1}"],
+													["Remorse", "Psychic damage", "{@dice 1d4+1}"],
+													["Anger", "Fire damage", "{@dice 1d4+1}"],
+													["Grief", "Cold damage", "{@dice 1d4+1}"],
+													["Bonds", "Force", "{@dice 1d4+1}"]
+												]
+											}
 										]
 									}
 								]
@@ -442,7 +498,26 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Temptation Paths"
+										"name": "Temptation Paths",
+										"entries": [
+											"As power grows, so does the temptation to abuse that power.",
+											{
+												"type": "table",
+												"colLabels": [
+													"Ruling Emotion", "Effect", "Damage/Missile"
+												],
+												"colStyles": [
+													"col-xs-3", "col-xs-3", "col-xs-3"
+												],
+												"rows": [
+													["Hope", "", "{@dice 1d4+2}"],
+													["Remorse", "", "{@dice 1d4+2}"],
+													["Anger", "", "{@dice 1d4+2}"],
+													["Grief", "", "{@dice 1d4+2}"],
+													["Bonds", "", "{@dice 1d4+2}"]
+												]
+											}
+										]
 									}
 								]
 							}
@@ -452,7 +527,26 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Transformation Paths"
+										"name": "Transformation Paths",
+										"entries": [
+											"For better or worse, the soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
+											{
+												"type": "table",
+												"colLabels": [
+													"Ruling Emotion", "Effect", "Damage/Missile"
+												],
+												"colStyles": [
+													"col-xs-3", "col-xs-3", "col-xs-3"
+												],
+												"rows": [
+													["Hope", "", "{@dice 1d4+3}"],
+													["Remorse", "", "{@dice 1d4+3}"],
+													["Anger", "", "{@dice 1d4+3}"],
+													["Grief", "", "{@dice 1d4+3}"],
+													["Bonds", "", "{@dice 1d4+3}"]
+												]
+											}
+										]
 									}
 								]
 							}
@@ -462,7 +556,39 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Atonement Paths"
+										"name": "Atonement Paths",
+										"entries": [
+											"For the good you may have done, there will be regret and sins to attone. The final stage of the soulborne's journey is one of righting wrongs no matter how small they may seem.",
+											{
+												"type": "table",
+												"colLabels": [
+													"Ruling Emotion", "Effect", "Damage/Missile"
+												],
+												"colStyles": [
+													"col-xs-3", "col-xs-3", "col-xs-3"
+												],
+												"rows": [
+													["Hope", "", "{@dice 1d4+4}"],
+													["Remorse", "", "{@dice 1d4+4}"],
+													["Anger", "", "{@dice 1d4+4}"],
+													["Grief", "", "{@dice 1d4+4}"],
+													["Bonds", "", "{@dice 1d4+4}"]
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Final Confluence",
+										"entries": [
+											"At 20th level, when Reactive Soul is triggered, all four of the effects from each path that has been taken occur simultaneously."
+										]
 									}
 								]
 							}
