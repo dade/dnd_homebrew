@@ -1,0 +1,289 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "badgrCustomSoulborne",
+        "abbreviation": "BCC",
+        "full": "badgr's Custom Campaign - Soulborne",
+        "authors": [
+          "Dale \"badgr_\" Emasiri"
+        ],
+        "version": "1.0",
+        "url": "https://twitter.com/demasiri",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Sorcerer",
+      "name": "Soulborne",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Soulborne",
+            "entries": [
+              "Some fluff about Soulborne...",
+              {
+                "type": "entries",
+                "name": "Anima",
+                "entries": [
+                  "Starting at 1st level, your soul awakens a set of auxiliary power called Anima. If your soul is depicted as a tree of your life, Anima would be the fruit that sprouts forth from its branches.",
+                  "As a Soulborne, you have a reserve of soul energy called Anima. These are essense of life and vitality that can be tapped into to cast Souleborne spells. The table below shows the maximum Anima you have available at certain Sorcer Levels.",
+                  "You regain half of your maximum Anima during a short rest, while a long rest will restore all of it.",
+                  {
+                    "type": "table",
+                    "colLabels": ["Sorcerer Level", "Anima"],
+                    "colStyles": ["col-xs-3 text-align-center", "col-xs-6"],
+                    "rows": [
+                      ["1st", "4"],
+                      ["6th", "6"],
+                      ["14th", "8"],
+                      ["18th", "10"]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Chromatic Soul",
+                "entries": [
+                  "Soulborne Sorcerers are able to change the colour of their soul on the magical spectrum, allowing them to tap into spells based on the chosen colour.",
+                  "Starting at 1st level, you gain master of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching your colour allows you to cast the following spells at their listed Anima cost instead of a spell slot.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Colour",
+                      "Spell",
+                      "Cost"
+                    ],
+                    "colStyles": [
+                      "col-xs-3 text-align-center",
+                      "col-xs-3",
+                      "col-xs-3"
+                    ],
+                    "rows": [
+                      [
+                        "Blue",
+                        "{@spell Soothing Spirit|bcc}, {@spell Soul Sacrifice|bcc}",
+                        "see spells"
+                      ],
+                      [
+                        "Red",
+                        "{@spell arms of hadar}",
+                        "2"
+                      ],
+                      [
+                        "Green",
+                        "{@spell shield}",
+                        "1"
+                      ],
+                      [
+                        "Yellow",
+                        "{@spell feather fall}",
+                        "1"
+                      ],
+                      [
+                        "Purple",
+                        "{@spell dissonant whispers}",
+                        "2"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Soul Scrying",
+                "entries": [
+                  "Your obsession with adopting personas complete with accents, mannerisms, and a set of their own demeanours has intermigled with the Arcane nature of your innate Soulborne abilities to awaken the Soul Scrying.",
+                  "Starting at 6th level, you have the ability to read the soul of people around you. When you have completed 8 uninterrupted hours of Soul Scrying, focusing on a single person within 500ft and maintaining concentration on the spell, you come to know the make-up of their soul. You learn the the essence of its being (class,) strength of its Anima (level,) and the purity of the being (alignment.)"
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Soul Shroud",
+                "entries": [
+                  "Starting at 6th level, you have the ability to shroud your soul and alter its make-up to be a perfect match of one that you have previously stored. Spending 1 hour and 10gp worth of materials you can change your Soul Shroud.",
+                  "After Soul Scrying has been fully accomplished, you must spend 24 uninterrupted hours wearing the shroud before you can gain the benefits of it. You can store a number of shrouds equal to 2 + your Charisma modifier. The table below shows an example of Shrouds and their possible effects. As a new Shroud is acquired, the GM will decide with you what the benefits of that Shroud is.",
+                  "A Shroud, once equipped, is permanent until you spend an action to wilfully remove it from your soul. The Shroud you wear persists through unconsciousness and all other effects, but may be dispelled with a high enough level of Dispell Magic.",
+                  {
+                    "type": "table",
+                    "colLabels": ["Character", "Feature"],
+                    "colStyle": ["col-xs-3 text-aling-center", "col-xs-6"],
+                    "rows": [
+                      ["Druid, Lvl6, Neutral Good", "{@class druid|phb|Druidic|druid|phb|druidic 1}, {@class druid|phb|Wild Shape|druid|phb|wild shape 2}"],
+                      ["Gunslinger, Lvl3, Neutral Good", "{@class fighter|phb|Firearm Proficiency|gunslinger|mercergunslinger|martial archetype 3}, {@class fighter|phb|Trickshot: Deadeye Shot|gunslinger|mercergunslinger|martial archetype 3}"]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Essence Shift",
+                "entries": [
+                  "Starting at 14th level, you gain the ability to manipulate the very fabric of souls. As a Reaction, spend 4 Anima and choose a creature within 30ft. You trade places with the creature, facing the same that you were before you initiated the Shift.",
+                  "Spending additional Anima increases the number of Essences that you can switch. Each target must have a creature to switch with. For every 2 Anima above the base cost of Essence Shift, you can affect two additional pairs.",
+                  "If the target is unwilling, it must make a Charisma saving throw against your Spell Save DC. All target pairs must be within 30ft of you."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Soul Crush",
+                "entries": [
+                  "Starting at 18th level, you become incredibly adept at reading the souls of your foes in an instant, knowing exactly how to inflict damage to their essence. Target a creature within 60ft and crush their very essence into dust.",
+                  "At the cost of 6 Anima, the targeted creature must make a Constitution check against your Spell Save DC. The creature takes {@dice 7d8} + 24 necrotic damage on a failed save, or half as much on a successful one.",
+                  "You may only use this ability once per encounter. You cannot empower this ability with additional Anima."
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "BCC",
+      "shortName": "Soulborne"
+    }
+  ],
+  "spell": [
+    {
+      "name": "Soul Sacrifice",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "2 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Soulborne",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+      "source": "BCC",
+      "entries": [
+        "You sacrifice Anima to restore a creature your touch. They regaing hit points equal to {@dice 1d8} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Empowered Soul Sacrifice",
+          "entries": [
+            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d8|1-9|1d6} per additional Anima spent."
+          ]
+        }
+      ],
+      "isHeal": true
+    },
+    {
+      "name": "Soothing Spirit",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Soulborne",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+      "source": "BCC",
+      "entries": [
+        "You sacrifice Anima to restore a creature within range. They regaing hit points equal to {@dice 1d4} + your spellcasting modifier. This spell has no effect on undead, constructs, or any other creature devoid of a soul."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Empowered Soul Sacrifice",
+          "entries": [
+            "By channeling more Anima into this spell, you can empower the healing received by the traget creature. The healing increases by {@scaledice 1d4|1-9|2} per additional Anima spent."
+          ]
+        }
+      ],
+      "isHeal": true
+    }
+  ]
+}

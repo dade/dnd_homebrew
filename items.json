@@ -4,12 +4,11 @@
       {
         "json": "BCC",
         "abbreviation": "BCC",
-        "full": "badgr's Custom Campaign",
+        "full": "badgr's Custom Campaign - Items",
         "authors": [
           "Dale \"badgr_\" Emasiri"
         ],
-        "convertedBy": "badgr_",
-        "url": "https://badgr.co",
+        "url": "",
         "version": "1.0",
         "targetSchema": "1.0.0"
       }
@@ -27,6 +26,9 @@
       "entries": [
         "While wearing this circlet, you look human. No horns or tail, less red in your skin colour, and your eyes are hazel. The spell ends if the circlet is removed."
       ]
+    },
+    {
+      
     }
   ]
 }
