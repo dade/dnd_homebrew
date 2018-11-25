@@ -953,6 +953,7 @@
     },
     {
       "name": "Protector",
+	  "source": "BCC",
       "level": 0,
       "school": "A",
       "time": [
@@ -1000,7 +1001,6 @@
           }
         ]
       },
-      "source": "BCC",
       "entries": [
         "An invisible barrier of magical force appears and protects your Soul Link partner. Until the start of their next turn, they have +5 bonus to AC, including against the triggering attack, and they take no damage from magic missile."
       ]
