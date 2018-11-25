@@ -1,3 +1,5 @@
 # Dungeons & Dragons Homebrew
 
-Mostly a dump for items, feats, homebrewed rules, etc.
+This is a directory of homebrewed content in JSON format, ready for 5etools.com homebrew management system.
+
+Provided as-is. Content is my own creation, credit would be appreciated but not necessary.
