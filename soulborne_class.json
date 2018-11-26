@@ -1500,6 +1500,212 @@
 				"The duplicate's AC equals 10 + your partner's Dexterity modifier. If an attack hits the duplicate, the duplicate is destroyed. The duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when the duplicate is destroyed.",
 				"A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight."
 			]
-		}
+    },
+    {
+			"name": "Blade Ward",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+			],
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			]
+    },
+    {
+			"name": "Dancing Lights",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of phosphorus or wychwood, or a glowworm"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
+				"As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+			],
+			"races": [
+				{
+					"name": "Elf (Drow)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Drow Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+    },
+    {
+      "name": "Message",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a short piece of copper wire"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
+				"You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+			],
+			"races": [
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+    }
   ]
 }
