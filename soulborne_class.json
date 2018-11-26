@@ -1059,9 +1059,9 @@
         "Your Soul Link partner gets a desperate surge of defensive strength via your link. They can roll a {@dice 1d4} and add the number rolled to either a saving throw (for a saving throw on the incoming attack), or on their first attack roll on their next turn."
       ]
     },
-	{
+	  {
       "name": "Fight or Flight",
-	  "source": "BCC",
+	    "source": "BCC",
       "level": 1,
       "school": "T",
       "time": [
@@ -1109,8 +1109,8 @@
         ]
       },
       "entries": [
-        "Like the wind, your Soul Link partner cannot be captured. Until the end of your partner's next turn, their movement does not provoke opportunity attacks.".
-		"On your partner's next turn, their first weapon attack roll against the creature that hit them has advantage. It deals an extra {@dice 1d8} force damage on a hit. Regardless of whether the attack hits or misses, your partner's walking speed is increased by 30 feet until the end of that turn."
+        "Like the wind, your Soul Link partner cannot be captured. Until the end of your partner's next turn, their movement does not provoke opportunity attacks.",
+		    "On your partner's next turn, their first weapon attack roll against the creature that hit them has advantage. It deals an extra {@dice 1d8} force damage on a hit. Regardless of whether the attack hits or misses, your partner's walking speed is increased by 30 feet until the end of that turn."
       ]
     }
   ]
