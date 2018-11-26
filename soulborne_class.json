@@ -271,7 +271,7 @@
                       "col-xs-3 text-align-center", "col-xs-3", "col-xs-3"
                     ],
                     "rows": [
-                      ["Blue", "{@spell Soothing Spirit|bcc}, {@spell Soul Sacrifice|bcc}", "See spells"],
+                      ["Blue", "{@spell Soothing Spirit|bcc}, {@spell Rejuvenate|bcc}", "See spells"],
                       ["Red", "{@spell Arms of Hadar}", "2"],
                       ["Green", "{@spell Shield}", "1"],
                       ["Yellow", "{@spell Feather Fall}", "1"],
@@ -448,7 +448,7 @@
                     "name": "Reactive Soul",
                     "entries": [
                       "A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the soulborne takes determine the powers granted.",
-                      "Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into missiles of Arcane energy.",
+                      "Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into two missiles of Arcane energy.",
                       "This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
                     ]
                   }
@@ -549,10 +549,10 @@
                         ],
                         "rows": [
                           ["Hope", "{@spell Hallowed Link|bcc}", "{@dice 1d4+3}"],
-                          ["Remorse", "", "{@dice 1d4+3}"],
-                          ["Anger", "", "{@dice 1d4+3}"],
+                          ["Remorse", "{@spell Eye for an Eye|bcc}", "{@dice 1d4+3}"],
+                          ["Anger", "+2 missiles (no cost)", "{@dice 1d4+3}"],
                           ["Grief", "{@spell Fight or Flight|bcc}", "{@dice 1d4+3}"],
-                          ["Bonds", "", "{@dice 1d4+3}"]
+                          ["Bonds", "{@spell Soul Sacrifice|bcc}", "{@dice 1d4+3}"]
                         ]
                       }
                     ]
@@ -578,11 +578,11 @@
                           "col-xs-3", "col-xs-3", "col-xs-3"
                         ],
                         "rows": [
-                          ["Hope", "", "{@dice 1d4+4}"],
-                          ["Remorse", "", "{@dice 1d4+4}"],
-                          ["Anger", "", "{@dice 1d4+4}"],
-                          ["Grief", "", "{@dice 1d4+4}"],
-                          ["Bonds", "", "{@dice 1d4+4}"]
+                          ["Hope", "{@spell Link of Alacrity|bcc}", "{@dice 1d4+4}"],
+                          ["Remorse", "{@spell Chains of Guilt|bcc}", "{@dice 1d4+4}"],
+                          ["Anger", "{@spell Tenebrae|bcc}", "{@dice 1d4+4}"],
+                          ["Grief", "{@spell Bound by Grief|bcc}", "{@dice 1d4+4}"],
+                          ["Bonds", "{@spell Twin Souls|bcc}", "{@dice 1d4+4}"]
                         ]
                       }
                     ]
@@ -612,7 +612,7 @@
   ],
   "spell": [
     {
-      "name": "Soul Sacrifice",
+      "name": "Rejuvenate",
       "level": 0,
       "school": "V",
       "time": [
@@ -953,7 +953,7 @@
     },
     {
       "name": "Protector",
-	  "source": "BCC",
+      "source": "BCC",
       "level": 0,
       "school": "A",
       "time": [
@@ -1007,8 +1007,8 @@
     },
 	{
       "name": "Hallowed Link",
-	  "source": "BCC",
-      "level": 1,
+      "source": "BCC",
+      "level": 0,
       "school": "E",
       "time": [
         {
@@ -1020,7 +1020,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 30
+          "amount": 90
         }
       },
       "components": {
@@ -1061,8 +1061,8 @@
     },
 	  {
       "name": "Fight or Flight",
-	    "source": "BCC",
-      "level": 1,
+      "source": "BCC",
+      "level": 0,
       "school": "T",
       "time": [
         {
@@ -1073,7 +1073,8 @@
       "range": {
         "type": "point",
         "distance": {
-          "type": "self"
+          "type": "feet",
+          "amount": 90
         }
       },
       "components": {
@@ -1110,8 +1111,414 @@
       },
       "entries": [
         "Like the wind, your Soul Link partner cannot be captured. Until the end of your partner's next turn, their movement does not provoke opportunity attacks.",
-		    "On your partner's next turn, their first weapon attack roll against the creature that hit them has advantage. It deals an extra {@dice 1d8} force damage on a hit. Regardless of whether the attack hits or misses, your partner's walking speed is increased by 30 feet until the end of that turn."
+        "On your partner's next turn, their first weapon attack roll against the creature that hit them has advantage. It deals an extra {@dice 1d8} force damage on a hit. Regardless of whether the attack hits or misses, your partner's walking speed is increased by 30 feet until the end of that turn."
       ]
-    }
+    },
+    {
+      "name": "Soul Sacrifice",
+      "source": "BCC",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "entries": [
+        "If your partner takes damage as part of the attack that has taken place, you may choose to spend 1 Anima to draw that damage through your Soul Link to yourself. In doing so, your partner takes no damage from the attack and you take only half."
+      ]
+    },
+    {
+			"name": "Eye for an Eye",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"When your Soul Link partner takes damage, the remorseful emotion bleeds uncontrollably through the bond and arcane force strikes back at the attacker. The creature must make a Dexterity saving throw. It takes {@dice 2d10} fire damage on a failed save, or half as much damage on a successful one."
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+    {
+			"name": "Link of Alacrity",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+				"When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+			]
+    },
+    {
+			"name": "Chains of Guilt",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+          "type": "feet",
+          "ammount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"When your missiles hit the target, a writhing mass of thorny vines appears at the points of impact, and the target must succeed on a Strength saving throw or be {@condition restrained} by the magical tendrils of arcane energy until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the tendrils dissipate into smoke.",
+				"While {@condition restrained} by this spell, the target takes {@dice 2d6} piercing damage at the start of each of its turns. A creature {@condition restrained} by the tendrils or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed."
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"opposedCheck": [
+				"strength"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+    },
+    {
+			"name": "Tenebrae",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+    },
+    {
+			"name": "Bound by Grief",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"When your Soul Link partner is attacked, their attack is overcome with grief pouring from you through the link. The target must succeed on a Wisdom saving throw or be {@condition paralyzed}, ending its current turn and until the end of its next turn."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+    },
+    {
+			"name": "Twin Souls",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+          "type": "feet",
+          "amount": 90
+				}
+			},
+			"components": {
+				"m": "1 Anima"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Soulborne",
+						"source": "BCC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Soulborne",
+							"source": "BCC"
+						},
+						"subclass": {
+							"name": "Adaptive",
+							"source": "BCC"
+						}
+					}
+				]
+			},
+			"source": "BCC",
+			"entries": [
+				"An illusory duplicate of your Soul Link partner appears in their space. Until the spell ends, the duplicates move with your partner and mimics their actions, shifting position so it's impossible to track which image is real. Your partner can use their action to dismiss the illusory duplicate.",
+				"Each time a creature targets your partner with an attack during the spell's duration, the duplicate is automatically the first to be targeted.",
+				"The duplicate's AC equals 10 + your partner's Dexterity modifier. If an attack hits the duplicate, the duplicate is destroyed. The duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when the duplicate is destroyed.",
+				"A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight."
+			]
+		}
   ]
 }
