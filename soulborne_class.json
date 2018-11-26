@@ -987,7 +987,7 @@
         "An invisible barrier of magical force appears and protects your Soul Link partner. Until the start of their next turn, they have +5 bonus to AC, including against the triggering attack, and they take no damage from magic missile."
       ]
     },
-	{
+  {
       "name": "Hallowed Link",
       "source": "BCC",
       "level": 0,
@@ -1041,7 +1041,7 @@
         "Your Soul Link partner gets a desperate surge of defensive strength via your link. They can roll a {@dice 1d4} and add the number rolled to either a saving throw (for a saving throw on the incoming attack), or on their first attack roll on their next turn."
       ]
     },
-	  {
+    {
       "name": "Fight or Flight",
       "source": "BCC",
       "level": 0,
@@ -1147,500 +1147,500 @@
       ]
     },
     {
-			"name": "Eye for an Eye",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"When your Soul Link partner takes damage, the remorseful emotion bleeds uncontrollably through the bond and arcane force strikes back at the attacker. The creature must make a Dexterity saving throw. It takes {@dice 2d10} fire damage on a failed save, or half as much damage on a successful one."
-			],
-			"damageInflict": [
-				"fire"
-			],
-			"savingThrow": [
-				"dexterity"
-			]
-		},
-    {
-			"name": "Link of Alacrity",
-			"level": 0,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
-				"When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
-			]
-    },
-    {
-			"name": "Chains of Guilt",
-			"level": 0,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
+      "name": "Eye for an Eye",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
           "type": "feet",
           "amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"When your missiles hit the target, a writhing mass of thorny vines appears at the points of impact, and the target must succeed on a Strength saving throw or be {@condition restrained} by the magical tendrils of arcane energy until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the tendrils dissipate into smoke.",
-				"While {@condition restrained} by this spell, the target takes {@dice 2d6} piercing damage at the start of each of its turns. A creature {@condition restrained} by the tendrils or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed."
-			],
-			"damageInflict": [
-				"piercing"
-			],
-			"savingThrow": [
-				"strength"
-			],
-			"opposedCheck": [
-				"strength"
-			],
-			"conditionInflict": [
-				"restrained"
-			]
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "When your Soul Link partner takes damage, the remorseful emotion bleeds uncontrollably through the bond and arcane force strikes back at the attacker. The creature must make a Dexterity saving throw. It takes {@dice 2d10} fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "damageInflict": [
+        "fire"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ]
     },
     {
-			"name": "Tenebrae",
-			"level": 0,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends."
-			],
-			"savingThrow": [
-				"constitution"
-			],
-			"conditionInflict": [
-				"blinded"
-			]
-    },
-    {
-			"name": "Bound by Grief",
-			"level": 0,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "round",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"When your Soul Link partner is attacked, their attack is overcome with grief pouring from you through the link. The target must succeed on a Wisdom saving throw or be {@condition paralyzed}, ending its current turn and until the end of its next turn."
-			],
-			"savingThrow": [
-				"wisdom"
-			],
-			"conditionInflict": [
-				"paralyzed"
-			]
-    },
-    {
-			"name": "Twin Souls",
-			"level": 0,
-			"school": "I",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
+      "name": "Link of Alacrity",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
           "type": "feet",
           "amount": 90
-				}
-			},
-			"components": {
-				"m": "1 Anima"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "",
-						"source": ""
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Soulborne",
-							"source": "BCC"
-						},
-						"subclass": {
-							"name": "Adaptive",
-							"source": "BCC"
-						}
-					}
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"An illusory duplicate of your Soul Link partner appears in their space. Until the spell ends, the duplicates move with your partner and mimics their actions, shifting position so it's impossible to track which image is real. Your partner can use their action to dismiss the illusory duplicate.",
-				"Each time a creature targets your partner with an attack during the spell's duration, the duplicate is automatically the first to be targeted.",
-				"The duplicate's AC equals 10 + your partner's Dexterity modifier. If an attack hits the duplicate, the duplicate is destroyed. The duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when the duplicate is destroyed.",
-				"A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight."
-			]
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+        "When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+      ]
     },
     {
-			"name": "Blade Ward",
-			"level": 0,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "round",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
+      "name": "Chains of Guilt",
+      "level": 0,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "When your missiles hit the target, a writhing mass of thorny vines appears at the points of impact, and the target must succeed on a Strength saving throw or be {@condition restrained} by the magical tendrils of arcane energy until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the tendrils dissipate into smoke.",
+        "While {@condition restrained} by this spell, the target takes {@dice 2d6} piercing damage at the start of each of its turns. A creature {@condition restrained} by the tendrils or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed."
+      ],
+      "damageInflict": [
+        "piercing"
+      ],
+      "savingThrow": [
+        "strength"
+      ],
+      "opposedCheck": [
+        "strength"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ]
+    },
+    {
+      "name": "Tenebrae",
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends."
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "conditionInflict": [
+        "blinded"
+      ]
+    },
+    {
+      "name": "Bound by Grief",
+      "level": 0,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "When your Soul Link partner is attacked, their attack is overcome with grief pouring from you through the link. The target must succeed on a Wisdom saving throw or be {@condition paralyzed}, ending its current turn and until the end of its next turn."
+      ],
+      "savingThrow": [
+        "wisdom"
+      ],
+      "conditionInflict": [
+        "paralyzed"
+      ]
+    },
+    {
+      "name": "Twin Souls",
+      "level": 0,
+      "school": "I",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "m": "1 Anima"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": ""
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Soulborne",
+              "source": "BCC"
+            },
+            "subclass": {
+              "name": "Adaptive",
+              "source": "BCC"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "An illusory duplicate of your Soul Link partner appears in their space. Until the spell ends, the duplicates move with your partner and mimics their actions, shifting position so it's impossible to track which image is real. Your partner can use their action to dismiss the illusory duplicate.",
+        "Each time a creature targets your partner with an attack during the spell's duration, the duplicate is automatically the first to be targeted.",
+        "The duplicate's AC equals 10 + your partner's Dexterity modifier. If an attack hits the duplicate, the duplicate is destroyed. The duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when the duplicate is destroyed.",
+        "A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight."
+      ]
+    },
+    {
+      "name": "Blade Ward",
+      "level": 0,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
           },
           {
             "name": "Soulborne",
             "source": "BCC"
           }
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
-			],
-			"damageResist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
-			]
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+      ],
+      "damageResist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
     },
     {
-			"name": "Dancing Lights",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a bit of phosphorus or wychwood, or a glowworm"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
+      "name": "Dancing Lights",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a bit of phosphorus or wychwood, or a glowworm"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
           },
           {
             "name": "Soulborne",
             "source": "BCC"
           }
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
-				"As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
-			],
-			"races": [
-				{
-					"name": "Elf (Drow)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Half-Elf (Drow Descent)",
-					"source": "SCAG",
-					"baseName": "Half-Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				}
-			]
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
+        "As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+      ],
+      "races": [
+        {
+          "name": "Elf (Drow)",
+          "source": "PHB",
+          "baseName": "Elf",
+          "baseSource": "PHB"
+        },
+        {
+          "name": "Half-Elf (Drow Descent)",
+          "source": "SCAG",
+          "baseName": "Half-Elf",
+          "baseSource": "PHB"
+        },
+        {
+          "name": "Tiefling (Abyssal)",
+          "source": "UAThatOldBlackMagic",
+          "baseName": "Tiefling",
+          "baseSource": "PHB"
+        }
+      ]
     },
     {
       "name": "Message",
@@ -1674,38 +1674,245 @@
         }
       ],
       "classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
           },
           {
             "name": "Soulborne",
             "source": "BCC"
           }
-				]
-			},
-			"source": "BCC",
-			"entries": [
-				"You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
-				"You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
-			],
-			"races": [
-				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				}
-			]
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
+        "You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+      ],
+      "races": [
+        {
+          "name": "Tiefling (Abyssal)",
+          "source": "UAThatOldBlackMagic",
+          "baseName": "Tiefling",
+          "baseSource": "PHB"
+        }
+      ]
+    },
+    {
+      "name": "Ray of Frost",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Sorcerer",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Giant Soul (UA)",
+              "source": "UAGiantSoulSorcerer",
+              "subSubclass": "Frost"
+            }
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes {@dice 1d8} cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+        "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "scalingEffects": true,
+      "races": [
+        {
+          "name": "Tiefling (Levistus)",
+          "source": "UAFiendishOptions",
+          "baseName": "Tiefling",
+          "baseSource": "PHB"
+        },
+        {
+          "name": "Tiefling (Levistus)",
+          "source": "MTF",
+          "baseName": "Tiefling",
+          "baseSource": "PHB"
+        }
+      ]
+    },
+    {
+      "name": "Sword Burst",
+      "source": "BCC",
+      "level": 0,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ]
+      },
+      "entries": [
+        "You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take {@dice 1d6} force damage.",
+        "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+      ],
+      "damageInflict": [
+        "force"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "scalingEffects": true
+    },
+    {
+      "name": "True Strike",
+      "level": 0,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Soulborne",
+            "source": "BCC"
+          }
+        ]
+      },
+      "source": "BCC",
+      "entries": [
+        "You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
+      ],
+      "races": [
+        {
+          "name": "Tiefling (Abyssal)",
+          "source": "UAThatOldBlackMagic",
+          "baseName": "Tiefling",
+          "baseSource": "PHB"
+        }
+      ]
     }
   ]
 }
