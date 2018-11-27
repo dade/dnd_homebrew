@@ -170,14 +170,14 @@
                 "type": "entries",
                 "name": "Cantrips",
                 "entries": [
-                  "At 1st level, you know three cantrips of your choice from the soulborne spell list. You learn an additional soulborne cantrip of your choice at 4th level and another at 10th level."
+                  "At 1st level, you know three cantrips of your choice from the Soulborne spell list. You learn an additional Soulborne cantrip of your choice at 4th level and another at 10th level."
                 ]
               },
               {
                 "type": "entries",
                 "name": "Spell Slots",
                 "entries": [
-                  "The Soulborne table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these soulborne spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                  "The Soulborne table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Soulborne spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
                   "For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot."
                 ]
               },
@@ -185,16 +185,16 @@
                 "type": "entries",
                 "name": "Spells Known of 1st Level and Higher",
                 "entries": [
-                  "You know three 1st-level spells of your choice from the soulborne spell list.",
-                  "You learn an additional soulborne spell of your choice at each level except 12th, 14th, 16th, 17th, 18th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
-                  "Additionally, when you gain a level in this class, you can choose one of the soulborne spells you know and replace it with another spell from the soulborne spell list, which also must be of a level for which you have spell slots."
+                  "You know three 1st-level spells of your choice from the Soulborne spell list.",
+                  "You learn an additional Soulborne spell of your choice at each level except 12th, 14th, 16th, 17th, 18th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+                  "Additionally, when you gain a level in this class, you can choose one of the Soulborne spells you know and replace it with another spell from the Soulborne spell list, which also must be of a level for which you have spell slots."
                 ]
               },
               {
                 "type": "entries",
                 "name": "Spellcasting Ability",
                 "entries": [
-                  "Charisma is your spellcasting ability for your soulborne spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a soulborne spell you cast and when making an attack roll with one.",
+                  "Charisma is your spellcasting ability for your Soulborne spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Soulborne spell you cast and when making an attack roll with one.",
                   {
                     "type": "abilityDc",
                     "name": "Spell",
@@ -230,7 +230,7 @@
                 "type": "entries",
                 "name": "Anima",
                 "entries": [
-                  "Starting at 2nd level, your soul's form shifts to being an entity with a force of its own. The core entity of the soulborne's soul develops its own gravitational pull, increasing as you grow in power, that can hold a number of additional soul fragments called Anima.",
+                  "Starting at 2nd level, your soul's form shifts to being an entity with a force of its own. The core entity of the Soulborne's soul develops its own gravitational pull, increasing as you grow in power, that can hold a number of additional soul fragments called Anima.",
                   "At 2nd level, your soul has the power to hold four Anima. The maximum amount of Anima available to you increases by two at 6th, 10th, 14th, and 19th level. The table below shows the number of Anima available to you.",
                   {
                     "type": "table",
@@ -434,7 +434,7 @@
               {
                 "name": "Adaptive Soul",
                 "entries": [
-                  "Through external strife and conflict, the Adaptive soulborne has spent their entire life thus far willing themselves to be someone else in an attempt to fit in with their surroundings. A survival trait that, in anyone else, would be simply a useful tool, has taken hold within the Soulborne's very core and changed how their abilities evolve and manifest. This type of soulborne does not have complete, willful control over their abilities and are instead ruled by emotion.",
+                  "Through external strife and conflict, the Adaptive Soulborne has spent their entire life thus far willing themselves to be someone else in an attempt to fit in with their surroundings. A survival trait that, in anyone else, would be simply a useful tool, has taken hold within the Soulborne's very core and changed how their abilities evolve and manifest. This type of Soulborne does not have complete, willful control over their abilities and are instead ruled by emotion.",
                   "You also gain the Feature: Adaptive Paths, which adds to your Reactive Soul feature at each level where you gain an Adaptive Soul feature",
                   {
                     "name": "Soul Link",
@@ -446,7 +446,7 @@
                     "type": "entries",
                     "name": "Reactive Soul",
                     "entries": [
-                      "A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the soulborne takes determine the powers granted.",
+                      "A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the Soulborne takes determine the powers granted.",
                       "Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into two missiles of Arcane energy.",
                       "This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
                     ]
@@ -457,7 +457,7 @@
                 "name": "Adaptive Paths",
                 "entries": [
                   "The nature of the Adaptive Soul is the influence that external factors play on their emotions, and their emotional state dictating the evolution of their Soulborne Metamorphosis.",
-                  "At 3rd, 6th, 10th, and 14th level, you gain the Threshold, Temptation, Transformation, and Atonement Paths respectively. The Adaptive soulborne's path is determined by the emotional stimuli that have affected them most profoundly throughout their life.",
+                  "At 3rd, 6th, 10th, and 14th level, you gain the Threshold, Temptation, Transformation, and Atonement Paths respectively. The Adaptive Soulborne's path is determined by the emotional stimuli that have affected them most profoundly throughout their life.",
                   {
                     "type": "entries",
                     "entries": [
@@ -465,8 +465,8 @@
                         "type": "inset",
                         "name": "Ruling Emotions",
                         "entries": [
-                          "The Ruling Emotion should be based on the character's roleplay and the most impactful, prominent, or present emotional state of the Adaptive soulborne's current milestone.",
-                          "Example: at 3rd level, when the Paths first emerge, the backstory of the character and all the events in the first three levels of the Adaptive soulborne's journey thus far will inform the decision. Between 3rd level and 6th level, only the events of the campaign between those milestones should be taken into account unless the GM and player agree otherwise.",
+                          "The Ruling Emotion should be based on the character's roleplay and the most impactful, prominent, or present emotional state of the Adaptive Soulborne's current milestone.",
+                          "Example: at 3rd level, when the Paths first emerge, the backstory of the character and all the events in the first three levels of the Adaptive Soulborne's journey thus far will inform the decision. Between 3rd level and 6th level, only the events of the campaign between those milestones should be taken into account unless the GM and player agree otherwise.",
                           "This decision should always be made between the Soulborne player and the GM with agreements on both sides."
                         ]
                       }
@@ -476,7 +476,7 @@
                     "type": "entries",
                     "name": "Adaptive Path: Threshold Paths",
                     "entries": [
-                      "Starting their journeys, the soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
+                      "Starting their journeys, the Soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
                       "Your Reactive Soul ability now acts according to the table below.",
                       {
                         "type": "table",
@@ -536,7 +536,7 @@
                     "type": "entries",
                     "name": "Adaptive Path: Transformation Paths",
                     "entries": [
-                      "For better or worse, the soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
+                      "For better or worse, the Soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
                       "Your Reactive Soul ability now acts according to the table below.",
                       {
                         "type": "table",
@@ -566,7 +566,7 @@
                     "type": "entries",
                     "name": "Adaptive Path: Atonement Paths",
                     "entries": [
-                      "For the good you may have done, there will be regrets and sins to attone for. The final stage of the soulborne's journey is one of righting wrongs- no matter how small they may seem.",
+                      "For the good you may have done, there will be regrets and sins to attone for. The final stage of the Soulborne's journey is one of righting wrongs- no matter how small they may seem.",
                       "Your Reactive Soul ability now acts according to the table below.",
                       {
                         "type": "table",
