@@ -232,6 +232,7 @@
                 "entries": [
                   "Starting at 2nd level, your soul's form shifts to being an entity with a force of its own. The core entity of the Soulborne's soul develops its own gravitational pull, increasing as you grow in power, that can hold a number of additional soul fragments called Anima.",
                   "At 2nd level, your soul has the power to hold four Anima. The maximum amount of Anima available to you increases by two at 6th, 10th, 14th, and 19th level. The table below shows the number of Anima available to you.",
+				  "You regain half of your maximum Anima on completing a short rest - your Anima reserves are fully replenished after a full rest.",
                   {
                     "type": "table",
                     "caption": "Anima Points",
