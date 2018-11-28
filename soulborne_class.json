@@ -36,7 +36,7 @@
             "Anima"
           ],
           "rows": [
-            [],
+            ["-"],
             [4],
             [4],
             [4],
@@ -339,7 +339,7 @@
           {
             "name": "Essence Shift",
             "entries": [
-			"Starting at 7th level, you gain the ability to manipulate the very fabric of souls. As a Reaction, spend 4 Anima and choose two creatures within 30ft of you. The creatures trade places, facing the same way they were before the Essence Shift took place. Each target must have a creature to switch with. It must make a Charisma saving throw against your Spell Save DC. This cannot affect creatures that do not have a living soul (e.g. Constructs)."
+              "Starting at 7th level, you gain the ability to manipulate the very fabric of souls. As a Reaction, spend 4 Anima and choose two creatures within 30ft of you. The creatures trade places, facing the same way they were before the Essence Shift took place. Each target must have a creature to switch with. It must make a Charisma saving throw against your Spell Save DC. This cannot affect creatures that do not have a living soul (e.g. Constructs)."
             ]
           }
         ],
