@@ -82,7 +82,9 @@
             ]
           }
         ]
-      ]
+      ],
+      "source": "BCC",
+      "shortName": "Guild Master"
     }
   ]
 }
