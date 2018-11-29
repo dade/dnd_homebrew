@@ -1,8 +1,4 @@
-* Realised there's currently no mention of how Anima regenerates (think it was that you gain half max on a short rest, all on a long rest)
-
 * Manifestations/drawbacks and how to counter it
-
-* Essence Shift - did this get dropped?
 
 * where does Anima come from? Other people's souls that we steal pieces of? Randomly generated naturally?
 
@@ -11,5 +7,3 @@
 * maybe drawbacks include losing some control over Chromatic Soul (d6 roll - 1-3 means it randomises/fails)
 
 * why do emotions have some much control over what the soulborne does via paths?
-
-* clarify that you can't change a path once you've chosen it - and clarify how they build on each other (so that you know you're not locked into one emotion at every state - and that the CURRENT ruling state dictates the damage that the missiles do)
