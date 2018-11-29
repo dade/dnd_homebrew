@@ -14,7 +14,7 @@
       }
     ]
   },
-  "subClass": [
+  "subclass": [
     {
       "class": "Rogue",
       "name": "Guild Master",
