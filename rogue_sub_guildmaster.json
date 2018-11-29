@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "badgrRogGM",
+        "abbreviation": "BCC",
+        "full": "badgr's Custom Compendium - Guild Master",
+        "authors": [
+          "Dale \"badgr_\" Emasiri"
+        ],
+        "version": "1.0.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subClass": [
+    {
+      "class": "Rogue",
+      "name": "Guild Master",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Guild Master",
+            "entries": [
+              "some fluff here...",
+              {
+                "type": "entries",
+                "name": "Master of Intel",
+                "entries": [
+                  "Starting when you choose this archetype at third level you gain proficiency with the {@item forgery kit}, you also learn 2 languages of your choice.",
+                  "Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, providing you know the language."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Master of Opportunity",
+                "entries": [
+                  "Starting at 3rd level, you are most effective when you have the upper hand on your enemy. When you gain a surprise attack, you have advantage on attack rolls. If the attack lands, the target is caught out of position for the next turn and has disadvantage on their attacks and saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "entires": [
+              {
+                "type": "entries",
+                "name": "Shot Caller",
+                "entries": [
+                  "Starting at 9th level, you are able to view the battlefield and survey the ebb and flow of battle. Using your knowledge of gaining the upper hand, and your natural leadership skills, you can give an ally within 30ft advantage on their next attack or saving throw. Your target must use this within their next turn or lose it.",
+                  "The target gains an instant critical hit if they already have advantage on their next attack. If they have advantage on their next saving throw, they take zero damage."
+                ]
+              }
+            ]
+          },
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Master of Insight",
+                "entries": [
+                  "Starting at 13th level, you have learned to read your enemies and decipher their attacks and formulate a counterattack. As a bonus action, you can make an Insight (Wisdom) check against a creature that isn't incapacitated. If succeeded against the target's Charisma (Deceoption) you can use sneak attack against the target even if you don't have advantage and if you are not in disadvantage with the target. Additionally, if your attack roll scores a 19-20, it is an instant critical hit."
+                ]
+              }
+            ]
+          },
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Shot Caller",
+                "entries": [
+                  "Some more to come..."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}
