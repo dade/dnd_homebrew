@@ -17,7 +17,7 @@
 
   "item": [
     {
-      "name": "Hymn's Circlet",
+      "name": "Fate's Circlet",
       "wondrous": true,
       "tier": "Major",
       "rarity": "Uncommon",
@@ -28,7 +28,26 @@
       ]
     },
     {
-      
+      "name": "Invicta",
+      "type": "R",
+      "tier": "Major",
+      "weapon": true,
+      "weaponCategory": "Martial",
+      "rarity": "Uncommon",
+      "weight": "3",
+      "dmg1": "{@dice 1d10 + 1}",
+      "genericBonus": "+1",
+      "dmgType": "P",
+      "entries": [
+        "You have a +1 bonus to attack and damage rolls made with this weapon."
+      ],
+      "property": [
+        "AF",
+        "RLD"
+      ],
+      "range": "80/240",
+      "reload": "3",
+      "source": "BCC"
     }
   ]
 }

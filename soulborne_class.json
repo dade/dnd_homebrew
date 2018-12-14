@@ -101,9 +101,9 @@
           ],
           "rows": [
             [2,0,0,0,0,0,0,0,0],
-            [2,0,0,0,0,0,0,0,0],
-            [3,2,0,0,0,0,0,0,0],
-            [3,2,0,0,0,0,0,0,0],
+            [3,0,0,0,0,0,0,0,0],
+            [4,2,0,0,0,0,0,0,0],
+            [4,2,0,0,0,0,0,0,0],
             [4,3,2,0,0,0,0,0,0],
             [4,3,2,0,0,0,0,0,0],
             [4,3,3,1,0,0,0,0,0],
@@ -115,11 +115,11 @@
             [4,3,3,3,2,1,1,0,0],
             [4,3,3,3,2,1,1,0,0],
             [4,3,3,3,2,1,1,1,0],
-            [5,3,3,3,2,1,1,1,0],
-            [5,3,3,3,2,1,1,1,1],
-            [5,3,3,3,2,1,1,1,1],
-            [5,3,3,3,3,2,1,1,1],
-            [5,3,3,3,3,2,2,1,1]
+            [4,3,3,3,2,1,1,1,0],
+            [4,3,3,3,2,1,1,1,1],
+            [4,3,3,3,3,1,1,1,1],
+            [4,3,3,3,3,2,1,1,1],
+            [4,3,3,3,3,2,2,1,1]
           ]
         }
       ],
@@ -166,9 +166,9 @@
             "name": "Spellcasting",
             "entries": [
                 "An event in your past has left an indelible mark on you, infusing you with arcane magic. This font of magic, unlike that of a Sorcerer, originates from the soul. It fuels your spells and augments your soul with additional power.",
-				"How you use that power may vary; some may choose to use adopt aspects of various other souls in order to alter their identity. Others may seek to enhance their own soul in order to achieve their goals, keeping interference from other souls to a minimum in order to maintain focus. Regardless of the 'how', you are acutely aware of the nature and essense of the soul. You are a Soulborne.",
-				"As a Soulborne is awakened, the Weave becomes aware of the Soul's presence, allowing them to bend its power to their will; while also leaving a lasting mark on the Soul itself.",
-				"The Soulborne are masters of mimicry and deception, bending their Soul and others' perception of it to gain knowledge and talents from their targets, while hiding their true nature from all but the most powerful magical prying.",
+                "How you use that power may vary; some may choose to use adopt aspects of various other souls in order to alter their identity. Others may seek to enhance their own soul in order to achieve their goals, keeping interference from other souls to a minimum in order to maintain focus. Regardless of the 'how', you are acutely aware of the nature and essense of the soul. You are a Soulborne.",
+                "As a Soulborne is awakened, the Weave becomes aware of the Soul's presence, allowing them to bend its power to their will; while also leaving a lasting mark on the Soul itself.",
+                "The Soulborne are masters of mimicry and deception, bending their Soul and others' perception of it to gain knowledge and talents from their targets, while hiding their true nature from all but the most powerful magical prying.",
 
               {
                 "type": "entries",
@@ -236,7 +236,7 @@
                 "entries": [
                   "Starting at 2nd level, your soul's form evolves to become an entity with a force of its own. The 'core entity' of the Soulborne's soul develops its own gravitational pull, increasing as you grow in power, that can hold a number of additional soul fragments called Anima. These fragments can be used to empower, renew, and maintain the soul.",
                   "At 2nd level, your soul has the power to hold four Anima. The maximum amount of Anima available to you increases by two at 6th, 10th, 14th, and 19th level. The table below shows the number of Anima available to you.",
-				  "You regain half of your maximum Anima on completing a short rest - your Anima reserves are fully replenished after a full rest.",
+                  "You regain half of your maximum Anima on completing a short rest - your Anima reserves are fully replenished after a full rest.",
                   {
                     "type": "table",
                     "caption": "Anima Points",
@@ -344,7 +344,7 @@
             "name": "Essence Shift",
             "entries": [
               "Starting at 7th level, you gain the ability to manipulate the very fabric of souls- your own and others. You can pinpoint them and even move them, if you have the power of Anima available to you.",
-			  "As a Reaction, spend 4 Anima and choose two creatures within 30ft of you. The creatures trade places, facing the same way they were before the Essence Shift took place. Each target must have a creature to switch with. It must make a Charisma saving throw against your Spell Save DC. This cannot affect creatures that do not have a living soul (e.g. Constructs)."
+              "As a Reaction, spend 4 Anima and choose two creatures within 30ft of you. The creatures trade places, facing the same way they were before the Essence Shift took place. Each target must have a creature to switch with. It must make a Charisma saving throw against your Spell Save DC. This cannot affect creatures that do not have a living soul (e.g. Constructs)."
             ]
           }
         ],
@@ -521,7 +521,7 @@
                     "entries": [
                       "As power grows, so does the temptation to abuse that power.",
                       "Your Reactive Soul ability now acts according to the table below. The damage dealt by the Reactive Soul missiles remains the same as it was at the Threshold Path; only the additional effect is dependent on the new Ruling Emotion.",
-					  "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Temptation Path. But if you and your DM decide that Anger is the emotion that has affected your character most between levels 3 and 6, you gain access to the Baleful Word spell.",
+                      "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Temptation Path. But if you and your DM decide that Anger is the emotion that has affected your character most between levels 3 and 6, you gain access to the Baleful Word spell.",
                       {
                         "type": "table",
                         "colLabels": [
@@ -552,7 +552,7 @@
                     "entries": [
                       "For better or worse, the Soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
                       "Your Reactive Soul ability now acts according to the table below.  The damage dealt by the Reactive Soul missiles remains the same as it was at the Threshold Path, and you keep the effect granted by the Ruling Emotion that was decided at the Temptation Path; only the new additional effect is dependent on the new Ruling Emotion.",
-					  "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Transformation Path. If your Ruling Emotion at the Temptation Path was Anger, you keep access to the Baleful Word spell. But if you and your DM decide that Remorse is the emotion that has affected your character most between levels 6 and 10, you also gain access to the Eye for an Eye spell.",
+                      "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Transformation Path. If your Ruling Emotion at the Temptation Path was Anger, you keep access to the Baleful Word spell. But if you and your DM decide that Remorse is the emotion that has affected your character most between levels 6 and 10, you also gain access to the Eye for an Eye spell.",
                       {
                         "type": "table",
                         "colLabels": [
@@ -583,7 +583,7 @@
                     "entries": [
                       "For the good you may have done, there will be regrets and sins to attone for. The final stage of the Soulborne's journey is one of righting wrongs- no matter how small they may seem.",
                       "Your Reactive Soul ability now acts according to the table below. The damage dealt by the Reactive Soul missiles remains the same as it was at the Threshold Path, and you keep the effects granted by the individual Ruling Emotions that were decided at the Temptation and Transformation Paths; only the new additional effect is dependent on the new Ruling Emotion.",
-					  "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Atonement Path. If your Ruling Emotion at the Temptation Path was Anger, you keep access to the Baleful Word spell, and if your Ruling Emotion at the Temptation Path was Remorse, you keep access to the Eye for an Eye spell. If you and your DM decide that Hope is once again the emotion that has affected your character most between levels 10 and 14, you also gain access to the Link of Alacrity spell.",
+                      "For example - if 'Hope' was the Ruling Emotion at the Threshold Path, your missiles will still deal Radiant damage at the Atonement Path. If your Ruling Emotion at the Temptation Path was Anger, you keep access to the Baleful Word spell, and if your Ruling Emotion at the Temptation Path was Remorse, you keep access to the Eye for an Eye spell. If you and your DM decide that Hope is once again the emotion that has affected your character most between levels 10 and 14, you also gain access to the Link of Alacrity spell.",
                       {
                         "type": "table",
                         "colLabels": [
