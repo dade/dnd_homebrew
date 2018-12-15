@@ -14,7 +14,9 @@
       }
     ]
   },
-
+  "itemProperty": [
+    
+  ],
   "item": [
     {
       "name": "Fate's Circlet",
@@ -48,6 +50,39 @@
       "range": "80/240",
       "reload": "3",
       "source": "BCC"
+    },
+    {
+      "name": "Sepa Caex",
+      "type": "M",
+      "weaponCategory": "Martial",
+      "baseItem": "longsword|phb",
+      "weight": "3",
+      "dmg1": "{@dice 1d8}",
+      "dmg2": "{@dice 1d10}",
+      "dmgType": "S",
+      "property": [
+        "V"
+      ],
+      "rarity": "Legendary",
+      "source": "BCC",
+      "reqAttune": true,
+      "entries": [
+        "This weapon, forged from the almalgamation of Torinn Balasar's soul and the Azure Stone - something that was until recently a lost artifact of great and unknown power.",
+        {
+          "name": "States",
+          "type": "entries",
+          "entries": [
+            "This weapon begins as a simple magical weapon and goes through multiple levels of awakening. These states are Dormant, Risen, and Awakened",
+            {
+              "name": "Dormant",
+              "type": "entries",
+              "entries": [
+                "+1 to attack and damage rolls."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
