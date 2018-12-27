@@ -67,17 +67,45 @@
       "source": "BCC",
       "reqAttune": true,
       "entries": [
-        "This weapon, forged from the almalgamation of Torinn Balasar's soul and the Azure Stone - something that was until recently a lost artifact of great and unknown power.",
+        "This weapon, forged from the amalgamation of Torinn Balasar's soul and the Azure Stone - something that was until recently a lost artifact of great and unknown power. Little was known about the Azure stone and now without the stone to study further much of the information will now be lost to the world besides the sword itself.",
         {
           "name": "States",
           "type": "entries",
           "entries": [
-            "This weapon begins as a simple magical weapon and goes through multiple levels of awakening. These states are Dormant, Risen, and Awakened",
+            "This legendary weapon is considered an incredibly powerful artifact with its own will.",
+            "Sepa Caex, colloquially translated from Draconic to meaning Soul Blade, is the result of Torinn Balasar's merger with the Azure Stone - an artifact of unkown origin and power. Now the sword bears his soul and can only be awakened by a single user: Raianne Balasar.",
+            "When attuned to anyone else other than Raianne, this weapon will remain in its dormant state until attuned by Raianne again.",
             {
               "name": "Dormant",
               "type": "entries",
               "entries": [
-                "+1 to attack and damage rolls."
+                "You have a +1 bonus to attack and damage rolls with this magic weapon."
+              ]
+            },
+            {
+              "name": "Risen",
+              "type": "entries",
+              "entries": [
+                "The bonus to attack and damage rolls increase to a +2.",
+                "Additionally, targets that are damaged by this weapon take an additional 1d6 points of ice damage. On a critical hit, this damage becomes 2d6 (or 1d6 * 2, depending on your GM's critical hit houserules) like any other critical hit damage dice."
+              ]
+            },
+            {
+              "name": "Awakened",
+              "type": "entries",
+              "entries": [
+                "The bonus to attack and damage rolls increase to a +3.",
+                "When you hit a target affected by Hexblade's Curse with this weapon, you can teleport instantly and make an attack against an additional creature within 15ft of the first. You gain the following benefits:",
+                {
+                  "type": "entries",
+                  "entries": [
+                    "",
+                    "• You gain bonus to damage rolls against the target. The bonus equals your proficiency bonus.",
+                    "• Any attack roll you make against the target is a critical hit on a roll of 19 or 20 on the d20.",
+                    "• If the first target dies while affected by Hexblade's Curse and the second attack successfully hits a new target, Hexblade's Curse transfers to the new target. If the original target survives, Hexblade's Curse continues to affect them and not the new target.",
+                    "• A critical hit grants an additional, free teleport attack."
+                  ]
+                }
               ]
             }
           ]
