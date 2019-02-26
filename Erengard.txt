@@ -27,20 +27,22 @@ Exports: Ale, cloth, furnishings, pottery, finished goods
 Political Structure
 Government Type: Oligarchy
 City Leader: High Lord Aurik Siegel
-Legislative: Lawkeepers of The Magistrate Assembly
-Judicial: Justicars of The Magistrate Assembly
+Legislative: The Eren Assembly
+Judicial: Justicars of The Eren Assembly
 
 General Information
-The capital city on the continent of Telyndr, Erengard stands in the Northern regions of the land. Home to scholars, wealthy trade families, and fine craftspeople, the city prides itself on championing innovations and study in the ways of science, literature, and crafting. Ruled by
+The capital city on the continent of Telyndr, Erengard stands in the Northern region of the land. Home to scholars, wealthy trade families, and fine craftspeople, the city prides itself on championing innovation and research in the ways of science, literature, and crafting. Ruled by Lords of the Siegel family for the last three generations, the noble families of Erengard are long-established and still hold the majority of the key positions of power and responsibility. 
 
 Geography
 
 
 Government
-
+The city's High Lord/Lady retains the final say over all matters of government in Erengard, though they are aided and advised by the Eren Assembly; a group of seven counselors, chosen from a list of twelve candidates. When a position becomes vacant, each of the historical noble families of the city nominate the representative of their house, and a vote is cast to decide who will take the place on the Eren Assembly. 
 
 Law and Order
+Day-to-day order is kept by the City Corp of the Capital Guard, performing the expected duties of law enforcement as well as serving as escorts for Assembly members as they attend their duties around the city. Members of the City Corp are not permitted to use magic, though those who do show sensitivity to ways of the Weave are expected to train in the detection of magic. While all those of the City Corp patrol armed and in armor, there are very few recorded incidents where weapons had to be used as anything other than a deterrant. 
 
+Matters of larger-scale disputes and the dispensation of justice are handled by the Justicars, empowered by the Magister of the Eren Assembly to pass appropriate sentences on those brought forward. In the most serious of cases, or in any case involving one of the major noble families of the city, a member of the Eren Assembly serves as a high judge.
 
 Trade
 
