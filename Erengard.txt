@@ -1,5 +1,5 @@
 Erengard
-Aliases: 
+Aliases: Bastion of the North, City of Scholars
 Region: Northern Telyndr
 
 Society
@@ -22,7 +22,7 @@ Alignments: All
 
 Commerce
 Imports: Leather, ore, timber, grain, livestock, exotic goods
-Exports: Ale, cloth, furnishings, pottery, finished goods
+Exports: Ale, wine, cloth, furnishings, pottery, finished goods
 
 Political Structure
 Government Type: Oligarchy
@@ -45,12 +45,13 @@ Day-to-day order is kept by the City Corp of the Capital Guard, performing the e
 Matters of larger-scale disputes and the dispensation of justice are handled by the Justicars, empowered by the Magister of the Eren Assembly to pass appropriate sentences on those brought forward. In the most serious of cases, or in any case involving one of the major noble families of the city, a member of the Eren Assembly serves as a high judge.
 
 Trade
-
+While Drezh (known as 'The Crossroads') is perhaps a better-placed trade hub, Erengard's trade families are still as well established today as they were several decades ago. As the scholars and craftspeople of the city have need for some rare or exotic materials, there are very regular trade caravans to and from the city. The more valuable of these can sometimes be seen with a City Corp (or sometimes even a small Capital Guard) escort.
 
 Exports
-
+Catering to noble tastes and being home to crafters of significant talent makes finished goods a large portion of the city's yearly exports. Furniture, pottery and statuery of both decorative and functional varieties, along with a carefully controlled number of high-end weapons are sent south to Drezh and the other larger settlements of Telyndr. Despite not having the climate to grow many varieties of fruit and grains, there are still a number of breweries and vintners who try to balance the import costs of ingredients with the cost of their finished products. 
 
 Imports
+Erengard relies on the smaller settlements of the region for much of their food supplies, as the expansion of the city has pushed all arable and farming operations out of its protective walls. Exotic goods form another staple of the incoming trade, serving the ever-changing whims of Erengardian high society as well as the stranger demands of resources from those attempting to advance various areas of knowledge and understanding.
 
 
 Defences
