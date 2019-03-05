@@ -21,7 +21,7 @@ Religion: Predomonently Pelor. Temples to Oghma, Moradin, Tempus. Lesser temples
 Alignments: All
 
 Commerce
-Imports: Leather, ore, timber, grain, livestock, exotic goods
+Imports: Leather, grain, livestock, exotic goods, ores
 Exports: Ale, wine, cloth, furnishings, pottery, finished goods
 
 Political Structure
@@ -34,7 +34,7 @@ General Information
 The capital city on the continent of Telyndr, Erengard stands in the Northern region of the land. Home to scholars, wealthy trade families, and fine craftspeople, the city prides itself on championing innovation and research in the ways of science, literature, and crafting. Ruled by Lords of the Siegel family for the last three generations, the noble families of Erengard are long-established and still hold the majority of the key positions of power and responsibility. 
 
 Geography
-
+Sheltered by dense forest to the north and east and mountains to the east and south, the city of Erengard sits near the border where the more temperate climates of the south meet the colder plains of the north. The natural defenses of forest and mountain provided much of the timber and stone that founded the city, and is still used today in its repairs and expansion. The abundance of stone and presence of some minor ore veins has allowed Erengard to maintain its nickname of 'Bastion of the North' due to its formidible defenses and solid structural foundations. There are fanciful stories from centuries past of the fledgling city fending off attackers from the northern wilds, though the sparse records from those times are still considered more myth and legend than accurate accounts.
 
 Government
 The city's High Lord/Lady retains the final say over all matters of government in Erengard, though they are aided and advised by the Eren Assembly; a group of seven counselors, chosen from a list of twelve candidates. When a position becomes vacant, each of the historical noble families of the city nominate the representative of their house, and a vote is cast to decide who will take the place on the Eren Assembly. 
