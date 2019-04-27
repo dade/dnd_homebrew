@@ -40,8 +40,6 @@
           "type": "entries",
           "entries": [
             "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
-            "Sepa Caex, colloquially translated from Draconic to meaning Soul Blade, is the result of Torinn Balasar's merger with the Azure Stone - an artifact of unkown origin and power. Now the sword bears his soul and can only be awakened by a single user: Raianne Balasar.",
-            "When attuned to anyone else other than Raianne, this weapon will remain in its dormant state until attuned by Raianne again.",
 			{
               "name": "Vengeance",
               "type": "entries",
@@ -63,7 +61,7 @@
                 "TO BE DISCOVERED"
               ]
             },
-			]
+		]
         }
       ]
     }
