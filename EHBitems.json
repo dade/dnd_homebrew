@@ -40,13 +40,14 @@
           "type": "entries",
           "entries": [
             "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
+			"Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls.",
 			]
 		},
 		{
           "name": "Vengeance",
           "type": "entries",
           "entries": [
-            "When you use this weapon to attack a target that has caused damage to you in this combat encounter, you gain a +1 bonus to attack and damage rolls against that target."
+            "When you use this weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3."
             ]
         },
 		{
