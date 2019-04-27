@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EHB",
+        "abbreviation": "EHB",
+        "full": "Elinari - Custom Items",
+        "authors": [
+          "Tegan \"Elinari\" Harris"
+        ],
+        "url": "",
+        "version": "1.0",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "itemProperty": [
+    
+  ],
+  "item": [
+    {
+      "name": "Va'ardalia's Legacy",
+      "type": "M",
+      "weaponCategory": "Martial",
+      "baseItem": "longsword|phb",
+      "weight": "3",
+      "dmg1": "{@dice 1d8}",
+      "dmg2": "{@dice 1d10}",
+      "dmgType": "S",
+      "property": [
+        "V"
+      ],
+      "rarity": "Artifact",
+      "source": "EHB",
+      "reqAttune": true,
+      "entries": [
+        "This sword, originally owned by Aribeth de Tylmarande, has known both justice and corruption. Returned to the Tylmarande family after Aribeth's death, it serves as a reminder of Aribeth's fall to darkness and the shame she brought to her family name. While retaining the visual appearance of nothing more than a well-crafted longsword, there are deeper layers of history and power to the weapon.",
+        {
+          "name": "Legacy",
+          "type": "entries",
+          "entries": [
+            "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
+            "Sepa Caex, colloquially translated from Draconic to meaning Soul Blade, is the result of Torinn Balasar's merger with the Azure Stone - an artifact of unkown origin and power. Now the sword bears his soul and can only be awakened by a single user: Raianne Balasar.",
+            "When attuned to anyone else other than Raianne, this weapon will remain in its dormant state until attuned by Raianne again.",
+			{
+              "name": "Vengeance",
+              "type": "entries",
+              "entries": [
+                "When you use this weapon to attack a target that has caused damage to you in this combat encounter, you gain a +1 bonus to attack and damage rolls against that target."
+              ]
+            },
+			{
+              "name": "Dark Motive",
+              "type": "entries",
+              "entries": [
+                "TO BE DISCOVERED"
+              ]
+            },
+			{
+              "name": "Descent",
+              "type": "entries",
+              "entries": [
+                "TO BE DISCOVERED"
+              ]
+            },
+			]
+        }
+      ]
+    }
+  ]
+}
