@@ -9,7 +9,76 @@
           "Tegan \"Elinari\" Harris"
         ],
         "url": "",
+        "version": "1.0",{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EHB",
+        "abbreviation": "EHB",
+        "full": "Elinari - Custom Items",
+        "authors": [
+          "Tegan \"Elinari\" Harris"
+        ],
+        "url": "",
         "version": "1.0",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "itemProperty": [
+    
+  ],
+  "item": [
+    {
+      "name": "Va'ardalia's Legacy",
+      "type": "M",
+      "weaponCategory": "Martial",
+      "baseItem": "longsword|phb",
+      "weight": "3",
+      "dmg1": "{@dice 1d8}",
+      "dmg2": "{@dice 1d10}",
+      "dmgType": "S",
+      "property": [
+        "V"
+      ],
+      "rarity": "Artifact",
+      "source": "EHB",
+      "reqAttune": true,
+      "entries": [
+        "This sword, originally owned by Aribeth (Va'ardalia) de Tylmarande, has known both justice and corruption. Returned to the Tylmarande family after Aribeth's death, it serves as a reminder of Aribeth's fall to darkness and the shame she brought to her family name. While retaining the visual appearance of nothing more than a well-crafted longsword, there are deeper layers of history and power to the weapon.",
+        {
+          "name": "Legacy",
+          "type": "entries",
+          "entries": [
+            "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
+			"Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls.",
+			]
+		},
+		{
+          "name": "Vengeance",
+          "type": "entries",
+          "entries": [
+            "When you use this weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3."
+            ]
+        },
+		{
+          "name": "Dark Motive",
+          "type": "entries",
+          "entries": [
+            "There is no avoiding the dark past of a blade wielded in anger- though how this may manifest is as yet undiscovered."
+            ]
+        },
+		{
+          "name": "Descent",
+          "type": "entries",
+          "entries": [
+            "As they fall, so may they yet rise again."
+            ]
+        },
+	  ]
+    }
+  ]
+}
         "targetSchema": "1.0.0"
       }
     ]
