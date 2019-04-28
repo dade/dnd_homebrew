@@ -40,7 +40,7 @@
           "type": "entries",
           "entries": [
             "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
-			"Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls.",
+			"Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls."
 			]
 		},
 		{
@@ -63,7 +63,7 @@
           "entries": [
             "As they fall, so may they yet rise again."
             ]
-        },
+        }
 	  ]
     }
   ]
