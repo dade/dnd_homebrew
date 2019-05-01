@@ -2,9 +2,9 @@
   "_meta": {
     "sources": [
       {
-        "json": "itemsBCC",
+        "json": "BCC",
         "abbreviation": "BCC",
-        "full": "badgr's Custom Compendium - Items",
+        "full": "badgr's Custom Compendium",
         "authors": [
           "Dale \"badgr_\" Emasiri"
         ],
