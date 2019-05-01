@@ -2,9 +2,9 @@
   "_meta": {
     "sources": [
       {
-        "json": "itemsEHB",
+        "json": "EHB",
         "abbreviation": "EHB",
-        "full": "Elinari - Custom Items",
+        "full": "Elinari Homebrew",
         "authors": [
           "Tegan \"Elinari\" Harris"
         ],
