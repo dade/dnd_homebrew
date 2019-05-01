@@ -72,7 +72,6 @@
             "name": "Fighting Style",
             "entries": [
                 "Each personality adopts a particular style of fighting that matches their temperament. Choose one of the following options for each personality. You can't take the same Fighting Style option more than once, even if you get to choose again.",
-
               {
                 "type": "entries",
                 "name": "Archery",
@@ -116,17 +115,13 @@
                 ]
               }
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Second Wind",
             "entries": [
               "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
             ]
-          }
-		    ],
-		    [
+          },
           {
             "name": "Defensive: Favoured Enemy",
             "entries": [
@@ -140,9 +135,7 @@
                 ]
               }
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Danger Sense",
             "entries": [
@@ -154,145 +147,143 @@
           {
             "name": "Defensive: Maneuvers",
             "entries": [
-                  "From 2nd level, your various tactics in combat are well-practiced enough to be considered a 'maneuver', if this was through formal training.",
-				          "Choose one maneuver from the list below - only the Defensive personality may use this maneuver.",
-                  "In order to use these maneuvers, you gain 4 superiority dice (d8s).",
-                  {
-                    "type": "options",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Disarming Attack",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
-                        ]
-                      }
-                    ]
-                  },
+              "From 2nd level, your various tactics in combat are well-practiced enough to be considered a 'maneuver', if this was through formal training.",
+              "Choose one maneuver from the list below - only the Defensive personality may use this maneuver.",
+              "In order to use these maneuvers, you gain 4 superiority dice (d8s).",
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Disarming Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Distracting Strike",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
-                        ]
-                      }
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Distracting Strike",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Feinting Attack",
-                        "entries": [
-                          "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll. The advantage is lost if not used on the turn you gain it."
-                        ]
-                      }
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Feinting Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Goading Attack",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
-                        ]
-                      }
+                      "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll. The advantage is lost if not used on the turn you gain it."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Goading Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Maneuvering Attack",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
-                        ]
-                      }
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Maneuvering Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Parry",
-                        "entries": [
-                          "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
-                        ]
-                      }
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Parry",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Precision Attack",
-                        "entries": [
-                          "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
-                        ]
-                      }
+                      "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Precision Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Pushing Attack",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
-                        ]
-                      }
+                      "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Pushing Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Riposte",
-                        "entries": [
-                          "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
-                        ]
-                      }
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Riposte",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Sweeping Attack",
-                        "entries": [
-                          "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
-                        ]
-                      }
+                      "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
                   {
                     "type": "entries",
+                    "name": "Sweeping Attack",
                     "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Trip Attack",
-                        "entries": [
-                          "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
-                        ]
-                      }
+                      "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Trip Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
                     ]
                   }
                 ]
               }
-            ],
-        [
+            ]
+          },
           {
             "name": "Offensive: Action Surge/Maneuvers",
             "entries": [
@@ -310,9 +301,7 @@
               "By 3rd level, multiple enemies are no more a threat than a single enemy.",
               "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Improved Critical",
             "entries": [
@@ -337,9 +326,7 @@
               "At 5th level, you may choose an additional maneuver from the list.",
               "You can make the attack action twice per turn."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Additional Maneuver",
             "entries": [
@@ -354,9 +341,7 @@
             "entries": [
               "From 6th level, you have gotten used to carrying around the weight of most armors. As long as you are not wearing heavy armor, your movement speed increases by 10 feet."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Know Your Enemy",
             "entries": [
@@ -383,9 +368,7 @@
             "entries": [
               "From 7th level, opportunity attacks against you are made with disadvantage."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Remarkable Athlete",
             "entries": [
@@ -409,9 +392,7 @@
               "At 9th level, you may choose an additional maneuver from the list.",
               "You gain an addiitonal superiority die."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Additional Maneuver",
             "entries": [
@@ -426,9 +407,7 @@
             "entries": [
               "From 10th level, creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach. If you hit a creature with an opportunity attack, the target’s speed is reduced to 0 until the end of the current turn."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Battlerager Charge",
             "entries": [
@@ -442,9 +421,7 @@
             "entries": [
               "At 11th level, you can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Multi Attack",
             "entries": [
@@ -467,9 +444,7 @@
             "entries": [
               "At 13th level, you may choose an additional maneuver from the list."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Additional Maneuver",
             "entries": [
@@ -484,9 +459,7 @@
               "NOTE: This assumes the character is a Drow - if not, use regular Blindsense ability or substitute for an appropriate ability.",
               "From 14th level, you no longer suffer disadvantage when fighting in direct sunlight as you can now rely on your keen hearing to compensate. You may not use vision-based perception skills at the same time, up to a range of 10 feet."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Retaliation",
             "entries": [
@@ -500,9 +473,7 @@
             "entries": [
               "From 15th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the save, half damage if you fail."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Opportunist",
             "entries": [
@@ -534,9 +505,7 @@
             "entries": [
               "From 18th level, if you miss with an attack roll, you can roll it again with advantage. Once you do so, you can’t use this again until you finish a short or long rest."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Improved Superiority/Survivor",
             "entries": [
@@ -560,9 +529,7 @@
             "entries": [
               "At 20th level, once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favoured enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
             ]
-          }
-        ],
-        [
+          },
           {
             "name": "Offensive: Stroke of Luck",
             "entries": [
