@@ -2,15 +2,12 @@
   "_meta": {
     "sources": [
       {
-        "json": "classesBCC",
+        "json": "dpFighterClassBCC",
         "abbreviation": "BCC",
-        "full": "badgr's Custom Compendium - Classes",
+        "full": "Dual-Persona Fighter Class",
         "authors": [
           "Dale \"badgr_\" Emasiri",
           "Tegan \"Elinari\" Harris"
-        ],
-        "convertedBy": [
-          "badgr_"
         ],
         "version": "1.2.0",
         "url": "https://badgr.co/",
@@ -20,268 +17,126 @@
   },
   "class": [
     {
-      "name": "Soulborne",
+      "name": "Dual-Persona Fighter",
       "source": "BCC",
       "hd": {
         "number": 1,
-        "faces": 6
+        "faces": 10
       },
       "proficiency": [
-        "int",
-        "cha"
-      ],
-      "classTableGroups": [
-        {
-          "colLabels": [
-            "Anima"
-          ],
-          "rows": [
-            ["-"],
-            [4],
-            [4],
-            [4],
-            [4],
-            [6],
-            [6],
-            [6],
-            [6],
-            [8],
-            [8],
-            [8],
-            [8],
-            [10],
-            [10],
-            [10],
-            [10],
-            [10],
-            [12],
-            [12]
-          ]
-        },
-        {
-          "colLabels": [
-            "{@filter Cantrips Known|spells|level=0|class=Soulborne (BCC)}",
-            "{@filter Spells Known|spells|class=Soulborne (BCC)}"
-          ],
-          "rows": [
-            [3,3],
-            [3,4],
-            [3,5],
-            [4,6],
-            [4,7],
-            [4,8],
-            [4,9],
-            [4,10],
-            [4,11],
-            [5,12],
-            [5,13],
-            [5,13],
-            [5,14],
-            [5,14],
-            [5,15],
-            [5,15],
-            [5,15],
-            [5,15],
-            [5,16],
-            [5,16]
-          ]
-        },
-        {
-          "title": "Spell Slots per Spell Level",
-          "colLabels": [
-            "{@filter 1st|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 2nd|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 3rd|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 4th|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 5th|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 6th|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 7th|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 8th|spells|level=1|class=Soulborne (BCC)}",
-            "{@filter 9th|spells|level=1|class=Soulborne (BCC)}"
-          ],
-          "rows": [
-            [2,0,0,0,0,0,0,0,0],
-            [3,0,0,0,0,0,0,0,0],
-            [4,2,0,0,0,0,0,0,0],
-            [4,2,0,0,0,0,0,0,0],
-            [4,3,2,0,0,0,0,0,0],
-            [4,3,2,0,0,0,0,0,0],
-            [4,3,3,1,0,0,0,0,0],
-            [4,3,3,2,0,0,0,0,0],
-            [4,3,3,3,1,0,0,0,0],
-            [4,3,3,3,2,0,0,0,0],
-            [4,3,3,3,2,1,0,0,0],
-            [4,3,3,3,2,1,0,0,0],
-            [4,3,3,3,2,1,1,0,0],
-            [4,3,3,3,2,1,1,0,0],
-            [4,3,3,3,2,1,1,1,0],
-            [4,3,3,3,2,1,1,1,0],
-            [4,3,3,3,2,1,1,1,1],
-            [4,3,3,3,3,1,1,1,1],
-            [4,3,3,3,3,2,1,1,1],
-            [4,3,3,3,3,2,2,1,1]
-          ]
-        }
+        "str",
+        "con"
       ],
       "startingProficiencies": {
         "armor": [
           "light"
+		  "medium"
+		  "heavy"
+		  "shields"
         ],
         "weapons": [
-          "daggers",
-          "darts",
-          "slings",
-          "quarterstaffs",
-          "light crossbows"
+          "simple",
+          "martial",
         ],
         "skills": {
           "choose": 2,
           "from": [
-            "Arcana",
-            "Deception",
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
             "Insight",
             "Intimidation",
-            "Persuasion",
-            "Religion"
+			"Perception",
+			"Survival"
           ]
         }
       },
       "startingEquipment": {
         "additionalFromBackground": true,"default": [
-          "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-          "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-          "Two {@item dagger|phb|daggers}"
+          "(a) a {@item chain mail|phb} or (b) any {@item leather|phb}, {@item longbow|phb}, and 20 {@item arrows|phb}",
+          "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+          "(a) a {@item light crossbow|phb} and 20 {@item bolts|phb} or (b) two {@item handaxe|phb}",
+          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
         ],
-        "goldAlternative": "{@dice 3d4x10|3d4 x 10|Starting Gold}"
+        "goldAlternative": "{@dice 5d4x10|5d4 x 10|Starting Gold}"
       },
       "multiclassing": {
         "requirements": {
-          "cha": 13
+          "str": 13
         }
       },
       "classFeatures": [
         [
           {
-            "name": "Spellcasting",
+            "name": "Fighting Style",
             "entries": [
-                "An event in your past has left an indelible mark on you, infusing you with arcane magic. This font of magic, unlike that of a Sorcerer, originates from the soul. It fuels your spells and augments your soul with additional power.",
-                "How you use that power may vary; some may choose to use adopt aspects of various other souls in order to alter their identity. Others may seek to enhance their own soul in order to achieve their goals, keeping interference from other souls to a minimum in order to maintain focus. Regardless of the 'how', you are acutely aware of the nature and essense of the soul. You are a Soulborne.",
-                "As a Soulborne is awakened, the Weave becomes aware of the Soul's presence, allowing them to bend its power to their will; while also leaving a lasting mark on the Soul itself.",
-                "The Soulborne are masters of mimicry and deception, bending their Soul and others' perception of it to gain knowledge and talents from their targets, while hiding their true nature from all but the most powerful magical prying.",
+                "Each personality adopts a particular style of fighting that matches their temperament. Choose one of the following options for each personality. You can't take the same Fighting Style option more than once, even if you get to choose again.",
 
               {
                 "type": "entries",
-                "name": "Cantrips",
+                "name": "Archery",
                 "entries": [
-                  "At 1st level, you know three cantrips of your choice from the Soulborne spell list. You learn an additional Soulborne cantrip of your choice at 4th level and another at 10th level."
+                  "You gain a +2 bonus to attack rolls you make with ranged weapons."
                 ]
               },
-              {
+			  {
                 "type": "entries",
-                "name": "Spell Slots",
+                "name": "Defense",
                 "entries": [
-                  "The Soulborne table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Soulborne spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-                  "For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot."
+                  "While you are wearing armor, you gain a +1 bonus to AC."
                 ]
               },
-              {
+			  {
                 "type": "entries",
-                "name": "Spells Known of 1st Level and Higher",
+                "name": "Dueling",
                 "entries": [
-                  "You know three 1st-level spells of your choice from the Soulborne spell list.",
-                  "You learn an additional Soulborne spell of your choice at each level except 12th, 14th, 16th, 17th, 18th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
-                  "Additionally, when you gain a level in this class, you can choose one of the Soulborne spells you know and replace it with another spell from the Soulborne spell list, which also must be of a level for which you have spell slots."
+                  "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
                 ]
               },
-              {
+			  {
                 "type": "entries",
-                "name": "Spellcasting Ability",
+                "name": "Great Weapon Fighting",
                 "entries": [
-                  "Charisma is your spellcasting ability for your Soulborne spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Soulborne spell you cast and when making an attack roll with one.",
-                  {
-                    "type": "abilityDc",
-                    "name": "Spell",
-                    "attributes": [
-                      "cha"
-                    ]
-                  },
-                  {
-                    "type": "abilityAttackMod",
-                    "name": "Spell",
-                    "attributes": [
-                      "cha"
-                    ]
-                  }
+                  "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
                 ]
               },
-              {
+			  {
                 "type": "entries",
-                "name": "Spellcasting Focus",
+                "name": "Protection",
                 "entries": [
-                  "You have a trinket that is infused with a portion of your own soul, which can be used as an Arcane Focus for your spell casting. It should be visible at all times."
+                  "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
                 ]
-              }
+              },
+			  {
+                "type": "entries",
+                "name": "Two-Weapon Fighting",
+                "entries": [
+                  "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+                ]
+              },
             ]
           }
         ],
         [
           {
-            "name": "Anima Economy",
+            "name": "Second Wind",
             "entries": [
-              "With your Arcane prowess growing, your control over your soul grows. While any other person's soul is a singular entity, the Soulborne's soul has grown beyond this constraint. Instead of a single entity, the Soulborne's soul is supplemented by Anima - additional fragments of souls that orbit the core entity. Manifesting and replenishing mostly of their own natural accord, these Anima become an additional daily resource for the Soulborne.",
-              {
-                "type": "entries",
-                "name": "Anima",
-                "entries": [
-                  "Starting at 2nd level, your soul's form evolves to become an entity with a force of its own. The 'core entity' of the Soulborne's soul develops its own gravitational pull, increasing as you grow in power, that can hold a number of additional soul fragments called Anima. These fragments can be used to empower, renew, and maintain the soul.",
-                  "At 2nd level, your soul has the power to hold four Anima. The maximum amount of Anima available to you increases by two at 6th, 10th, 14th, and 19th level. The table below shows the number of Anima available to you.",
-                  "You regain half of your maximum Anima on completing a short rest - your Anima reserves are fully replenished after a full rest.",
-                  {
-                    "type": "table",
-                    "caption": "Anima Points",
-                    "colLabels": [
-                      "Level", "Available Anima"
-                    ],
-                    "colStyles": [
-                      "col-xs-3 text-align-center", "col-xs-5"
-                    ],
-                    "rows": [
-                      ["2nd", "4"],
-                      ["6th", "6"],
-                      ["10th", "8"],
-                      ["14th", "10"],
-                      ["19th", "12"]
-                    ]
-                  }
-                ]
-              }
+              "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",
             ]
           },
+		],
+		[
           {
-            "name": "Chromatic Soul",
+            "name": "Defensive: Favoured Enemy",
             "entries": [
               {
                 "type": "entries",
                 "entries": [
-                  "Those who are Soulborne are able to change the perceived colour of their soul on the magical spectrum, known as its Chroma; allowing them to tap into spells based on the chosen colour.",
-                  "Starting at 2nd level, you gain mastery of your soul, allowing you to spend a Bonus Action to switch your soul's colour. Switching colour allows you to cast the corresponding spells at their listed Anima cost instead of a spell slot. These spells do not count towards your number of known spells.",
-                  {
-                    "type": "table",
-                    "colLabels": [
-                      "Colour", "Spell", "Cost"
-                    ],
-                    "colStyles": [
-                      "col-xs-3 text-align-center", "col-xs-3", "col-xs-3"
-                    ],
-                    "rows": [
-                      ["Blue", "{@spell Soothing Spirit|bcc}, {@spell Rejuvenate|bcc}", "See spells"],
-                      ["Red", "{@spell Arms of Hadar}", "2"],
-                      ["Green", "{@spell Shield}", "1"],
-                      ["Yellow", "{@spell Feather Fall}", "1"],
-                      ["Purple", "{@spell Dissonant Whispers}", "2"]
-                    ]
-                  }
+                  "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+				  "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+				  "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+				  "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
                 ]
               }
             ]
@@ -289,13 +144,42 @@
         ],
         [
           {
-            "name": "Soulborne Metamorphosis",
+            "name": "Offensive: Danger Sense",
             "entries": [
-              "At 3rd level, you gain a feature granted by your Soulborne Metamorphosis that alters the evolution of your soul. Your choice grants branching paths at 3rd level, and again at 6th, 10th, and 14th level"
+              "At 1st level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
             ],
-            "gainSubclassFeature": true
           }
         ],
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
         [
           {
             "name": "Ability Score Improvement",

@@ -9,7 +9,7 @@
           "Tegan \"Elinari\" Harris"
         ],
         "version": "1.0",
-        "url": "",
+        "url": "https://twitter.com/Elinari_R",
         "targetSchema": "1.0.0"
       }
     ]
@@ -26,17 +26,17 @@
               "The Corruptive Soulborne is intently aware of the raw potential power souls can possess. Whether by choice or circumstance, the Weave has led them in search of souls with immense untapped potential. By incorporating a soul skilled in the blade, the Corruptive Soulborne can make their arcane attacks more lethal; while by taking on aspects of a sneakier soul, they can make their attacks sting and still get themselves out of harm's way. This type of Soulborne keeps their powers tightly focused, and honed to a deadly precision.",
               "You also gain the Feature: Focal Point, which grants additional abilities at each level where you gain a Corruptive Soul feature",
                   {
-                    "name": "Soul Link",
+                    "name": "Soul Watcher",
                     "entries": [
-                      "Starting at 3rd level, after spending 10 minutes of casting you link souls with another willing creature. This enables the reactionary feature: Reactive Soul."
+                      "Starting at 3rd level, after spending 10 minutes of casting, you link souls with another creature. This enables the Skill Mimic feature."
                     ]
                   },
                   {
                     "type": "entries",
-                    "name": "Reactive Soul",
+                    "name": "Skill Mimic",
                     "entries": [
                       "A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the Soulborne takes determine the powers granted.",
-                      "Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into two missiles of Arcane energy.",
+                      "From 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into two missiles of Arcane energy.",
                       "This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
                     ]
                   }
