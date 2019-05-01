@@ -9,8 +9,8 @@
           "Dale \"badgr_\" Emasiri",
           "Tegan \"Elinari\" Harris"
         ],
-        "version": "1.2.0",
-        "url": "https://badgr.co/",
+        "version": "1.0.0",
+        "url": "",
         "targetSchema": "1.0.0"
       }
     ]
@@ -47,8 +47,8 @@
             "History",
             "Insight",
             "Intimidation",
-			"Perception",
-			"Survival"
+		      	"Perception",
+		      	"Survival"
           ]
         }
       },
@@ -80,35 +80,35 @@
                   "You gain a +2 bonus to attack rolls you make with ranged weapons."
                 ]
               },
-			  {
+			        {
                 "type": "entries",
                 "name": "Defense",
                 "entries": [
                   "While you are wearing armor, you gain a +1 bonus to AC."
                 ]
               },
-			  {
+			        {
                 "type": "entries",
                 "name": "Dueling",
                 "entries": [
                   "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
                 ]
               },
-			  {
+			        {
                 "type": "entries",
                 "name": "Great Weapon Fighting",
                 "entries": [
                   "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
                 ]
               },
-			  {
+			        {
                 "type": "entries",
                 "name": "Protection",
                 "entries": [
                   "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
                 ]
               },
-			  {
+			        {
                 "type": "entries",
                 "name": "Two-Weapon Fighting",
                 "entries": [
@@ -122,7 +122,7 @@
           {
             "name": "Second Wind",
             "entries": [
-              "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",
+              "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
             ]
           }
 		    ],
@@ -154,14 +154,11 @@
           {
             "name": "Defensive: Maneuvers",
             "entries": [
-              {
-                "type": "entries",
-                "entries": [
                   "From 2nd level, your various tactics in combat are well-practiced enough to be considered a 'maneuver', if this was through formal training.",
 				          "Choose one maneuver from the list below - only the Defensive personality may use this maneuver.",
-                  "In order to use these maneuvers, you gain 4 superiority dice (d8s)."
+                  "In order to use these maneuvers, you gain 4 superiority dice (d8s).",
                   {
-                    "type": "entries",
+                    "type": "options",
                     "entries": [
                       {
                         "type": "entries",
@@ -294,9 +291,7 @@
                   }
                 ]
               }
-            ]
-          }
-        ],
+            ],
         [
           {
             "name": "Offensive: Action Surge/Maneuvers",
