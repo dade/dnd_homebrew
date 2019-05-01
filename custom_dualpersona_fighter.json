@@ -288,7 +288,7 @@
             "name": "Offensive: Action Surge/Maneuvers",
             "entries": [
               "At 2nd level, you match your defensive side with a situational maneuver of your own.",
-              "Choose one maneuver from the list below - both Offensive and Defensive personalities may use this maneuver.",
+              "Choose one maneuver from the list above - both Offensive and Defensive personalities may use this maneuver.",
               "You share the pool of superiority dice with the Defensive personality.",
               "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again."
             ]
@@ -305,8 +305,7 @@
           {
             "name": "Offensive: Improved Critical",
             "entries": [
-              "By 3rd level, your strikes have improved in force.",
-              "Attacks score a critical on a roll of 19 or 20."
+              "By 3rd level, your strikes have improved in force. Attacks score a critical on a roll of 19 or 20."
             ]
           }
         ],
