@@ -40,31 +40,87 @@
           "type": "entries",
           "entries": [
             "This weapon can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in swift and painful incapacitation at best, instant death at worst.",
-			"Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls."
-			]
-		},
-		{
+			      "Due to its high level of craftsmanship, the weapon grants a +1 bonus to attack and damage rolls."
+			    ]
+		    },
+		    {
           "name": "Vengeance",
           "type": "entries",
           "entries": [
-            "When you use this weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3."
-            ]
+            "When you use this unsheathed weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3.",
+            "When the weapon is used sheathed, this bonus is +2 instead of +3."
+          ]
         },
-		{
+		    {
           "name": "Dark Motive",
           "type": "entries",
           "entries": [
-            "There is no avoiding the dark past of a blade wielded in anger- though how this may manifest is as yet undiscovered."
-            ]
+            "There is no avoiding the dark past of a blade wielded in anger- though how this may manifest is as yet undiscovered. (TT)"
+          ]
         },
-		{
+		    {
           "name": "Descent",
           "type": "entries",
           "entries": [
-            "As they fall, so may they yet rise again."
-            ]
+            "As they fall, so may they yet rise again. If the bearer is attuned to both Va'ardalia's Legacy and its counterpart, you gain the ability to regenerate hit points equal to your level whenever you successfully deal damage to a living creature."
+          ]
         }
-	  ]
+	    ]
+    },
+    {
+      "name": "Tolivast's Trickery",
+      "rarity": "Artifact",
+      "source": "EHB",
+      "reqAttune": true,
+      "entries": [
+        "Known to most as 'the False Crown of Neverwinter', this formerly cursed artifact was used by Seldra Tylmarande in her attempt to claim the throne of Neverwinter. This version of the crown was believed to have been destroyed. Three of its four false sapphires bear cracks - the fourth remains flawless.",
+        {
+          "name": "Legacy",
+          "type": "entries",
+          "entries":[
+            "This item can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in instant death to fire and ice."
+          ]
+        },
+        {
+          "name": "Former Madness",
+          "type": "entries",
+          "entries":[
+            "The first time the bearer of this item is attuned to it and enters within 60 feet of Va'ardalia's Legacy, roll a d20. On a score or 12 or lower, they begin to succumb to the remnants of Tolivast's spell. If the die roll was an even number, they begin to experience mild hallucinations. If the die roll was an odd number, they become incapable of speech for one minute. On a roll of 1, they become frightened of the nearest person to them- this lasts until they are no longer in contact with the crown, or until they move beyond 60 feet of Va'ardalia's Legacy."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aribeth's Atonement",
+      "type": "RG",
+      "weight": "1",
+      "rarity": "Artifact",
+      "source": "EHB",
+      "reqAttune": true,
+      "entries":[
+        "Once a simple ring worn by Aribeth de Tylmarande, this silver band has been transfigured to roughly resemble the Crown of Neverwinter. Each of the four main sapphire chips pulses with arcane power.",
+        {
+          "name": "Legacy",
+          "type": "entries",
+          "entries": [
+            "This item can only be attuned to by someone of the Tylmarande bloodline. Any attempt made by someone outside of the bloodline results in paralysis that lasts for a full day after the ring has been removed."
+          ]
+        },
+        {
+          "name": "Family Honor",
+          "type": "entries",
+          "entries": [
+            "The first time the bearer of this item is attuned to it and enters within 120 feet of Va'ardalia's Legacy, roll a d20. On a score of 10 or higher, they can pinpoint the location of Va'ardalia's Legacy to within a 10 foot radius. On a score of less than 10, they begin to hear phantom whispers of prayer to Tyr."
+          ]
+        },
+        {
+          "name": "Arise",
+          "type": "entries",
+          "entries":[
+            "If the bearer is attuned to both Aribeth's Atonement and Va'ardalia's Legacy, you gain resistance to spells of all types."
+          ]
+        }
+      ]
     }
   ]
 }
