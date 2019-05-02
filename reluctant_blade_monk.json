@@ -1,0 +1,1029 @@
+{
+	"class": [
+		{
+			"name": "Monk",
+			"source": "PHB",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Ki Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"shortswords"
+				],
+				"tools": [
+					"any one type of artisan's tools or any one musical instrument of your choice"
+				],
+				"skills": {
+					"choose": 2,
+					"from": [
+						"Acrobatics",
+						"Athletics",
+						"History",
+						"Insight",
+						"Religion",
+						"Stealth"
+					]
+				}
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"10 {@item dart|phb|darts}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"shortswords"
+					]
+				}
+			},
+			"classFeatures": [
+				[
+					{
+						"name": "Unarmored Defense",
+						"entries": [
+							"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+						]
+					},
+					{
+						"name": "Martial Arts",
+						"entries": [
+							"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
+							"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+							{
+								"type": "list",
+								"items": [
+									"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
+									"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+									"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+								]
+							},
+							"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ki",
+						"entries": [
+							"Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.",
+							"You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.",
+							"When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.",
+							"Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+							{
+								"type": "abilityDc",
+								"name": "Ki",
+								"attributes": [
+									"wis"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Flurry of Blows",
+								"entries": [
+									"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Patient Defense",
+								"entries": [
+									"You can spend 1 ki point to take the {@action Dodge} action as a bonus action on your turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Step of the Wind",
+								"entries": [
+									"You can spend 1 ki point to take the {@action Disengage} or {@action Dash} action as a bonus action on your turn, and your jump distance is doubled for the turn."
+								]
+							}
+						]
+					},
+					{
+						"name": "Unarmored Movement",
+						"entries": [
+							"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.",
+							"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+						]
+					}
+				],
+				[
+					{
+						"name": "Deflect Missiles",
+						"entries": [
+							"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
+							"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
+						]
+					},
+					{
+						"name": "Monastic Tradition",
+						"entries": [
+							"When you reach 3rd level, you commit yourself to a monastic tradition, chosen from the list of available traditions. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"name": "Slow Fall",
+						"entries": [
+							"Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+						]
+					}
+				],
+				[
+					{
+						"name": "Extra Attack",
+						"entries": [
+							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+						]
+					},
+					{
+						"name": "Stunning Strike",
+						"entries": [
+							"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ki-Empowered Strikes",
+						"entries": [
+							"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+						]
+					},
+					{
+						"name": "Monastic Tradition feature",
+						"entries": [
+							"At 6th level, you gain one feature granted by your Monastic Tradition."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Evasion",
+						"entries": [
+							"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+						]
+					},
+					{
+						"name": "Stillness of Mind",
+						"entries": [
+							"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Unarmored Movement improvement",
+						"entries": [
+							"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+						]
+					}
+				],
+				[
+					{
+						"name": "Purity of Body",
+						"entries": [
+							"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison."
+						]
+					}
+				],
+				[
+					{
+						"name": "Monastic Tradition feature",
+						"entries": [
+							"At 11th level, you gain one feature granted by your Monastic Tradition."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Tongue of the Sun and Moon",
+						"entries": [
+							"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
+						]
+					}
+				],
+				[
+					{
+						"name": "Diamond Soul",
+						"entries": [
+							"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
+							"Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+						]
+					}
+				],
+				[
+					{
+						"name": "Timeless Body",
+						"entries": [
+							"At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Monastic Tradition feature",
+						"entries": [
+							"At 17th level, you gain one feature granted by your Monastic Tradition."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Empty Body",
+						"entries": [
+							"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
+							"Additionally, you can spend 8 ki points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Perfect Soul",
+						"entries": [
+							"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Monastic Tradition",
+			"subclasses": [
+				{
+					"name": "Way of the Reluctant Blade",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Way of the Reluctant Blade",
+								"entries": [
+									"Monks of the Way of the Reluctant Blade exercise extreme restraint in their fighting style to subdue and pacify their opponents, only drawing their blade when absolutely necessary. Monks of this path mix their training between that of the Way of the Kensei and Open Hand. Combining the nonlethal approach of Open Hand Techniques and their affinity with the Kensei weapon, Monks of the Way of the Reluctant Blade walk a difficult path.",
+									{
+										"type": "entries",
+										"name": "Path of Reluctance",
+										"entries": [
+											"",
+											{
+												"type": "entries",
+												"name": "Kensei Blade",
+												"entries": [
+													"Choose one type of sword or dagger to be your kensei weapon. This weapon can be any simple or martial sword or dagger that lacks the heavy and special properties. You gain proficiency with this weapon if you don't already have it. The weapon of the chosen type is a monk weapon for you. Many of this tradition's features work only with your kensei weapons and will depend on whether or not it is sheathed to use certain abilities. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon to be a kensei weapon for you, following the criteria above."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Agile Parry",
+												"entries": [
+													"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself. You gain +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Pommel Strike",
+												"entries": [
+													"While your blade is sheathed, you channel your ki into the weapon and strike with the pommel, causing your enemy's ki to be utilised against them. Make an attack roll with the weapon- when you hit with the Pommel Strike, you can impose one of the following effects on the target.",
+													{
+														"type": "list",
+														"items": [
+															"It must succeed on a Constitution saving throw or be winded until the end of its next turn. All attacks against this target have advantage while winded.",
+															"It can't take reactions until the end of your next turn."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Chan Defense",
+										"entries": [
+                                            "Sheathed Blade: If your kensei weapon has any effects or properties that manifest on use, after you take the {@action Attack} you can choose to spend a ki point to negate one effect (regardless of whether it would affect you or the entity being attacked).",
+                                            "This cannot be used to suppress the personality of a sentient weapon.",
+                                            "Unsheathed Blade: If your kensei weapon has any effects or properties that manifest on use, after you take the {@action Attack} you can choose to spend a ki point to negate one effect that would affect the wielder. You may spend multiple ki points to suppress multiple effects.",
+                                            "This cannot be used to suppress the personality of a sentient weapon."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "LVL11 Skill",
+										"entries": [
+											"LVL11 Skill Description"
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "LVL17 Skill",
+										"entries": [
+											"LVL17 Skill Description"
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "BCC",
+					"shortName": "Reluctant Blade"
+				}
+			],
+			"fluff": [
+				{
+					"entries": [
+						"Her fists a blur as they deflect an incoming hail of arrows, a half-elf springs over a barricade and throws herself into the massed ranks of hobgoblins on the other side. She whirls among them, knocking their blows aside and sending them reeling, until at last she stands alone.",
+						"Taking a deep breath, a human covered in tattoos settles into a battle stance. As the first charging orcs reach him, he exhales and a blast of fire roars from his mouth, engulfing his foes.",
+						"Moving with the silence of the night, a black-clad halfling steps into a shadow beneath an arch and emerges from another inky shadow on a balcony a stone's throw away. She slides her blade free of its cloth-wrapped scabbard and peers through the open window at the tyrant prince, so vulnerable in the grip of sleep.",
+						"Whatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.",
+						{
+							"type": "entries",
+							"name": "The Magic of Ki",
+							"entries": [
+								"Monks make careful study of a magical energy that most monastic traditions call ki. This energy is an element of the magic that suffuses the multiverse\u2014specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of ki gives them more power over their bodies and the bodies of their foes."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Training and Asceticism",
+							"entries": [
+								"Small walled cloisters dot the landscapes of the worlds of D&D, tiny refuges from the flow of ordinary life, where time seems to stand still. The monks who live there seek personal perfection through contemplation and rigorous training. Many entered the monastery as children, sent to live there when their parents died, when food couldn't be found to support them, or in return for some kindness that the monks had performed for their families.",
+								"Some monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or assassins at the command of their leader, a noble patron, or some other mortal or divine power.",
+								"The majority of monks don't shun their neighbors, making frequent visits to nearby towns or villages and exchanging their service for food and other goods. As versatile warriors, monks often end up protecting their neighbors from monsters or tyrants.",
+								"For a monk, becoming an adventurer means leaving a structured, communal lifestyle to become a wanderer. This can be a harsh transition, and monks don't undertake it lightly. Those who leave their cloisters take their work seriously, approaching their adventures as personal tests of their physical and spiritual growth. As a rule, monks care little for material wealth and are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering their treasure."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Monk",
+							"entries": [
+								"As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?",
+								"Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community's rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?",
+								"As a result of the structured life of a monastic community and the discipline required to harness ki, monks are almost always lawful in alignment.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the {@background hermit} background."
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 76
+				},
+				{
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"Do not mistake my silence for acceptance of your villainy. While you blustered and threatened, I've planned four different ways to snap your neck with my bare hands."
+							],
+							"by": "Ember, grand master of flowers"
+						},
+						"Monks walk a path of contradiction. They study their art as a wizard does, and like a wizard, they wear no armor and typically eschew weapons. Yet they are deadly combatants, their abilities on a par with those of a raging barbarian or a superbly trained fighter. Monks embrace this seeming contradiction, for it speaks to the core of all monastic study. By coming to know oneself completely, one learns much of the wider world.",
+						"A monk's focus on inner mastery leads many such individuals to become detached from society, more concerned with their personal experience than with happenings elsewhere. Adventuring monks are a rare breed of an already rare type of character, taking their quest for perfection beyond the walls of the monastery into the world at large.",
+						"Playing a monk character offers many intriguing opportunities to try something different. To distinguish your monk character even further, consider the options in the sections that follow.",
+						{
+							"type": "entries",
+							"name": "Monastery",
+							"entries": [
+								"A monk studies in a monastery in preparation for a life of asceticism. Most of those who enter a monastery make it their home for the rest of their lives, with the exception of adventurers and others who have reason to leave. For those individuals, a monastery might serve as a refuge between excursions to the world or as a source of support in times of need.",
+								"What sort of place was your monastery, and where is it located? Did attending it contribute to your experience in an unusual or distinctive way?",
+								{
+									"type": "table",
+									"caption": "Monastery",
+									"colLabels": [
+										"{@dice d6}",
+										"Monastery"
+									],
+									"colStyles": [
+										"col-1 text-align-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"Your monastery is carved out of a mountainside, where it looms over a treacherous pass."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Your monastery is high in the branches of an immense tree in the Feywild."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"Your monastery was founded long ago by a cloud giant and is inside a cloud castle that can be reached only by flying."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Your monastery is built beside a volcanic system of hot springs, geysers, and sulfur pools. You regularly received visits from azer traders."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Your monastery was founded by gnomes and is an underground labyrinth of tunnels and rooms."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Your monastery was carved from an iceberg in the frozen reaches of the world."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Icon",
+							"entries": [
+								"Even in the monastic lifestyle, which eschews materialism and personal possessions, symbolism plays an important part in defining the identity of an order. Some monastic orders treat certain creatures with special regard, either because the creature is tied to the order's history or because it serves as an example of a quality the monks seek to emulate.",
+								"If your character's monastery had a special icon, you might wear a crude image of the creature somewhere inconspicuous on your clothing to serve as an identifying mark. Or perhaps your order's icon does not have a physical form but is expressed through a gesture or a posture that you adopt, and which other monks might know how to interpret.",
+								{
+									"type": "table",
+									"caption": "Icon",
+									"colLabels": [
+										"{@dice d6}",
+										"Icon"
+									],
+									"colStyles": [
+										"col-1 text-align-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"Monkey. Quick reflexes and the ability to travel through the treetops are two of the reasons why your order admires the monkey."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Dragon Turtle. The monks of your seaside monastery venerate the dragon turtle, reciting ancient prayers and offering garlands of flowers to honor this living spirit of the sea."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"Ki-rin. Your monastery sees its main purpose as watching over and protecting the land in the manner of the ki-rin."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Owlbear. The monks of your monastery revere a family of owlbears and have coexisted with them for generations."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Hydra. Your order singles out the hydra for its ability to unleash several attacks simultaneously."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Dragon. A dragon once laired within your monastery. Its influence remains long after its departure."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Master",
+							"entries": [
+								"During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the martial arts and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?",
+								{
+									"type": "table",
+									"caption": "Master",
+									"colLabels": [
+										"{@dice d6}",
+										"Master"
+									],
+									"colStyles": [
+										"col-1 text-align-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"Your master was a tyrant whom you had to defeat in single combat to complete your instruction."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Your master was kindly and taught you to pursue the cause of peace."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"Your master was merciless in pushing you to your limits. You nearly lost an eye during one especially brutal practice session."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Your master seemed goodhearted while tutoring you, but betrayed your monastery in the end."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Your master was cold and distant. You suspect that the two of you might be related."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Your master was kind and generous, never critical of your progress. Nevertheless, you feel you never fully lived up to the expectations placed on you."
+										]
+									]
+								}
+							]
+						}
+					],
+					"source": "XGE",
+					"page": 32
+				}
+			]
+		}
+	]
+}
