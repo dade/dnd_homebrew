@@ -52,6 +52,23 @@
       "source": "BCC"
     },
     {
+      "name": "Mace of Qotal",
+      "type": "M",
+      "weaponCategory": "Simple",
+      "baseItem": "mace|phb",
+      "genericBonus": "+1",
+      "weight": "4",
+      "dmg1": "{@dice 1d6}",
+      "dmgType": "B",
+      "rarity": "Rare",
+      "source": "BCC",
+      "reqAttune": true,
+      "entries": [
+        "When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@dice 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
+        "While you hold this weapon, it sheds a bright light in a 20-foot radius and dim light for an additional 20 feet."
+      ]
+    },
+    {
       "name": "Sepa Caex",
       "type": "M",
       "weaponCategory": "Martial",
