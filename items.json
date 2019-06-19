@@ -99,8 +99,10 @@
       "entries": [
         "This weapon requires an attunement ritual that consumes 200 gold pieces worth of materials, and takes 8 hours. The blade has restrictions placed upon its wielder.",
         "You know its name. It is Ary'Faern'Kerym, the Artblade. It is an ancient blade crafted by the Sel'ryr, the first elven civilization of the world before the fall of the first age of civilization. It is a sword lost in mystery and legend, but here it sits before you as if a god among all of the weapons of the world.",
-        "The Artblade serves only one master at a atime. The attunement process has specific restrictions and may only be wielded by one of elven lineage, of Neutral Good alignment, and one of virtue.",
+        "The Artblade serves only one master at a time. The attunement process has specific restrictions and may only be wielded by one of elven lineage, of Neutral Good alignment, and one of virtue.",
         "Ary'Faern'Kerym won't serve anyone that it believes to be craven, erratic, corrupt, or at odds with preserving and protecting elvenkind. If the blade rejects you, you make ability checks, attack rolls, and saving throws at disadvantage for 24 hours. If the blade accepts you, you become attuned to it and a new rune appears on the blade. You remain attuned to it until you die or the weapon is destroyed.",
+        "Ary'Faern'Kerym bears a rune for each master it has served, and upon attuning to the blade a new run appears on the flat of the blade farthest from the tip. The first rune, Feryn, glows when you first attune to it.",
+        "Each rune marks the development of the wielder and the soft, lilting voice of Ary'Faern'Kerym echoes in your mind: surpass those who came before you.",
         {
           "type": "table",
           "caption": "Ary'Faern'Kerym Runes",
