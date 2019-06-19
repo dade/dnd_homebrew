@@ -81,6 +81,62 @@
       ]
     },
     {
+      "name": "Ary'Faern'Kerym, the Artblade",
+      "type": "M",
+      "weaponCategory": "Martial",
+      "baseItem": "longsword|phb",
+      "weight": "3",
+      "dmg1": "{@dice 1d8}",
+      "dmg2": "{@dice 1d10}",
+      "dmgType": "S",
+      "property": [
+        "V"
+      ],
+      "rarity": "Legendary",
+      "source": "BCC",
+      "reqAttune": "by an Elf or Half-Elf of Neutral Good Alignment",
+      "sentience": true,
+      "entries": [
+        "This weapon requires an attunement ritual that consumes 200 gold pieces worth of materials, and takes 8 hours. The blade has restrictions placed upon its wielder.",
+        "You know its name. It is Ary'Faern'Kerym, the Artblade. It is an ancient blade crafted by the Sel'ryr, the first elven civilization of the world before the fall of the first age of civilization. It is a sword lost in mystery and legend, but here it sits before you as if a god among all of the weapons of the world.",
+        "The Artblade serves only one master at a atime. The attunement process has specific restrictions and may only be wielded by one of elven lineage, of Neutral Good alignment, and one of virtue.",
+        "Ary'Faern'Kerym won't serve anyone that it believes to be craven, erratic, corrupt, or at odds with preserving and protecting elvenkind. If the blade rejects you, you make ability checks, attack rolls, and saving throws at disadvantage for 24 hours. If the blade accepts you, you become attuned to it and a new rune appears on the blade. You remain attuned to it until you die or the weapon is destroyed.",
+        {
+          "type": "table",
+          "caption": "Ary'Faern'Kerym Runes",
+          "colStyles": [
+            "col-1 text-align-center",
+            "col-11"
+          ],
+          "rows": [
+            ["1", "Feryn: +1 bonus to damage and attack rolls"],
+            ["2", "Drisbynn: +2 initiative"],
+            ["3", "Velazane: +2 bonus to damage and attack rolls"],
+            ["4", "Caigwyn: gains the defender weapon properties"],
+            ["5", "Dorren: functions as a ring of spell storing"],
+            ["6", "Taanyth: becomes a vorpal sword"]
+          ]
+        },
+        {
+          "name": "Sentience",
+          "type": "entries",
+          "entries": [
+            "Ary'Faern'Kerym is a sentient, Neutral Good weapon with an Intelligence of 12, a Wisdom of 10, and a Charisma of 12. It has hearing and darkvision out to a range of 120 feet.",
+            "The weapon communicates by transmitting emotions, sending a tingling sensation through the wielder's hand when it wants to communicate something it has sensed. It can communicate more explicitly, through visions or dreams, when the wielder is either in a trance or asleep."
+          ]
+        },
+        {
+          "name": "Personality",
+          "type": "entries",
+          "entries": [
+            "Every moonblade seeks the advancement of elvenkind and elven ideals. Courage, loyalty, beauty, music, and life are all part of this purpose.",
+            "Once it has bonded to an owner who shares its ideals, its loyalty is absolute.",
+            "If Ary'Faern'Kerym has a flaw, it is overconfidence. Once it has decided on an owner, it believes that only that person should wield it, even if the owner falls short of elven ideals."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Sepa Caex",
       "type": "M",
       "weaponCategory": "Martial",
