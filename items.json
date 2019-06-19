@@ -30,6 +30,18 @@
       ]
     },
     {
+      "name": "Virtuous Silken Wraps",
+      "wondrous": true,
+      "tier": "Major",
+      "rarity": "Rare",
+      "source": "BCC",
+      "reqAttune": true,
+      "entries": [
+        "When worn by a creature who has control over their body's energy - known as Ki - the wraps amplify the virtue of patience within the wielder, bringing upon them a sense of calm.",
+        "A Monk wearing these wraps may use Patient Defence as a bonus action without expending a Ki point."
+      ]
+    },
+    {
       "name": "Invicta",
       "type": "R",
       "tier": "Major",
