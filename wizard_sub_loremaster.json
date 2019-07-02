@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EHB",
+        "abbreviation": "EHB",
+        "full": "Lore Master (Revisited)",
+        "authors": [
+          "David_Darko"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Wizard",
+      "name": "Lore Master",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Lore Master",
+            "entries": [
+              "Lore Mastery is an Arcane Tradition fixated on understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge, the thrill of proving (or discrediting) a theory of magic, is usually what drives Lore Masters from their places of study, laboratories or archives, to adventure out in the world.",
+              "Lore Masters are known generally, as Savants. Savants typically see bookish beauty in Magic and Lore, sharing a common interest in unfolding history and the world, with the College of Lore. However, unlike other traditions that focus on the specifics of a specific school and it's most practicable effect, Lore Masters focus on the underlying nature of knowledge and magic itself. Most Savants, attain attributes of personality from their intensive study and heavily theoretic scholarly upbringing. Usually, either becoming haughty or arrogant, especially towards other Wizards, Knowledge Clerics and Warlocks. Others, become virtuous towards the nature of Lore, becoming loving teachers, especially those who have achieved clarity within their obscure field, counter ignorance and deception with knowledge and good humor, having shed their vulnurable haughty nature.",
+              "Especially powerful Loremasters, typically become so enveloped in the nature of Magic, that they are often seen as catalysts towards the realms of the Gods, some being able to communicate with the All-Powerful through the Weave that bind all.",
+              {
+                "type": "entries",
+                "name": "Lore Master",
+                "entries": [
+                    "Starting at 2nd Level, you become a compendium of knowledge within a vast array of topics. You gain proficiency with three of these skills; Arcana, History, Nature or Religion. Additionally, for the three chosen skills, you may add double your proficiency to when performing skill checks using these checks.",
+                    "In addition, you may attempt to analyze a target's movements. Once per short rest, after spending 1 minute observing or interacting with your target, the first action that targets you, that they perform has disadvantage, as you draw wisdom of either technique, physique or magical method. If you are subject to an action from your chosen target that requires, a dexterity, constitution or intelligence saving throw, you instead gain advantage."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Weave Magic",
+                "entries": [
+                    "Through your studies, you have acquired an understanding of a fundamental nature in all things magic. Especially destructive magic.",
+                    "When you cast a spell that requires a spell slot of 1st level or higher, that deals damage of a specific type, through use of a simple arcano-mechanical principle, you may change the property of spells cast from a random list. Once per Short rest, you may reroll the list using a d10. The damage type is determined by moving from left to right on the order. Examply, rolling a 4 on the d10, would make you able to cast the spell Vampiric Touch, dealing Thunder damage, instead of Necrotic. The list goes as follows:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Acid, Bludgeoning, Cold, Fire, Force, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, Thunder"
+                        ]
+                    },
+                    "Additionally, once per Long Rest, when you cast a spell that requires a spell slot of 1st level or higher, that requires opponents to perform a saving throw, you can alter the effects of the initial casting. You may change the DC requirement, such as making a strength save a dexterity save, for the first round of effects. From thereon, it reverts back to the original state of the spell.",
+                    "Instead of changing the initial DC, you may also target a single creature, that has failed a DC from one of your spells in their original forms, and, as a reaction, change the DC of their next roll, to be of your choosing, such as forcing a target that is held by Hold Person, to instead performing an Intelligence saving throw, on their next round, by changing the spell to an illusory effect, that feels twice as potent."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+            {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Weave Realms",
+                        "entries": [
+                            "At 6th level, you are able to percieve, through magical tracing, the underlying tethers between the Planes of Existence and the Plane you currently inhabit, and have learned to impose certain attributes of each Plane upon the area, in a 20 ft. cube, depending on your spell slots you use to perform this tethering:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "Expending a 1st level spell slot, you may impose a strengthened tether to The Elemental Chaos. The next spell that targets a foe within the cube, deals an extra 2d10 Fire, Cold or Thunder damage. Additionally, after the first spell, when casting a spell that deals damage to enemies within the cube, you may increase the damage by 2d8 Fire, Cold or Thunder damage, per 1st level spell slot, to all enemies within the cube. You may use a total of three 1st level spell slots on a single spell at a time.",
+                                    "Expending a 3rd level spell slot, you may impose a strengthened tether to The Astral Sea. Spells you cast within the cube, extends to all creatures within the cube, excluding yourself. Additionally, by fueling an additional 3rd level spell slot to any spell cast, increases the DC of the spell by 2, when targeted within the cube."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Prodigious Memory",
+                "entries": [
+                  "At 1th level, you have attained a greater mastery of spell preperation. As a bonus action, you can replace one spell you have prepared with another spell from your spellbook. You can't use this feature again until you finish a short or long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Master of Magic",
+                "entries": [
+                  "At 14th level, your understanding of magic as a whole, has allowed you to recreate almost any spell. By spending 10 hours, and equivalent to 1000gp in materials, you can recreate any spell you have seen and can recall, to your spellbook. It counts as a Wizard spell for you.",
+                  "Additionally, you can cast the effects of Weave Magic upon a spell twice per iteration, allowing you to choose any of the elemental types. You may now also cast Weave Realms twice per Long Rest."
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "EHB",
+      "shortName": "Lore Master"
+    }
+  ]
+}
