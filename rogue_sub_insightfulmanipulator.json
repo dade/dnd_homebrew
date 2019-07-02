@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EHB",
+        "abbreviation": "EHB",
+        "full": "Elinari Homebrew - Insightful Manipulator",
+        "authors": [
+          "Tegan \"Elinari\" Harris"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Rogue",
+      "name": "Insightful Manipulator",
+      "subclassFeatures": [
+        [
+          {
+            "name": "The Insightful Manipulator",
+            "entries": [
+              "Information holds value, and can be used and misused to great effect. The rogue who follows the path of information may also follow the path of how best to work with others to gain and utilise this information - whether through discourse or swift action.",
+              {
+                "type": "entries",
+                "name": "Ear for Deceit",
+                "entries": [
+                    "By 3rd level, you are versed in the ways people try to lie and deceive - whenever you make a Wisdom (Insight) check to determine whether a creature not in your party is lying, treat a roll of 7 or lower on the d20 as an 8.",
+                    "If you choose to Insight check a member of your own party, you instead get a bonus to your check:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Scales: +1",
+                            "Solenza: +2",
+                            "Mugen: +3"
+                        ]
+                    }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Watchful",
+                "entries": [
+                    "You have a +5 bonus to your passive Wisdom (Perception) score."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Source of Intel",
+                "entries": [
+                    "If a creature you wish to incapacitate (non-lethal attack) has 5 hit points or fewer remaining, you can immediately succeed on an attempt to subdue them."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+            {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Insightful Interactions",
+                        "entries": [
+                            "Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you two pieces of information about the creature, chosen from:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "If they are part of, allied to, or working with, a group or faction",
+                                    "Their class level(s) and type of weapon they favour (if any)",
+                                    "If they are operating of their own free will",
+                                    "A single piece of information regarding their history, origins, or personality traits (at DM's discretion)"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD",
+                "entries": [
+                  "To be decided"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD 2",
+                "entries": [
+                  "More to be decided"
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "EHB",
+      "shortName": "Insightful Manipulator"
+    }
+  ]
+}
