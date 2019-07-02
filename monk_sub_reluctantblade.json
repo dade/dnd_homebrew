@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "BCC",
+        "abbreviation": "BCC",
+        "full": "badgr's Custom Compendium - Way of the Reluctant Blade",
+        "authors": [
+          "Dale \"badgr_\" Emasiri"
+        ],
+        "version": "1.0.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Monk",
+      "name": "Way of the Reluctant Blade",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Path of Reluctance",
+            "entries": [
+              "Monks of the Way of the Reluctant Blade exercise extreme restraint in their fighting style to subdue and pacify their opponents, only drawing their blade when absolutely necessary. Monks of this path mix their training between that of the Way of the Kensei and Open Hand. Combining the nonlethal approach of Open Hand Techniques and their affinity with the Kensei weapon, Monks of the Way of the Reluctant Blade walk a difficult path.",
+              {
+                "type": "entries",
+                "name": "Kensei Blade",
+                "entries": [
+                    "You gain proficiency with the longsword, and may no longer gain proficiency in any other sword weapon. The longsword is classed as a monk weapon for you, and may be used for both sheathed and unsheathed attacks. All longsword attacks are made at {@dice 1d6} + proficiency + Dexterity modifier when sheathed, and {@dice 1d8} + proficiency + Dexterity modifier when drawn."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Pommel Strike",
+                "entries": [
+                    "While your blade is sheathed, you channel your ki into the weapon and strike with the pommel, causing your enemy's ki to be utilised against them. Make an attack roll with the weapon- when you hit with the Pommel Strike, you also impose the following effects on the target:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "It must succeed on a Constitution saving throw or be winded until the end of its next turn. All attacks against this target have advantage while winded.",
+                            "It can't take reactions until the end of your next turn."
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+            {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Chan Defense",
+                        "entries": [
+                            "Sheathed Blade: If your kensei weapon has any effects or properties that manifest on use, after you take the {@action Attack} you can choose to spend a ki point to negate one effect (regardless of whether it would affect you or the entity being attacked).",
+                            "This cannot be used to suppress the personality of a sentient weapon.",
+                            "Unsheathed Blade: If your kensei weapon has any effects or properties that manifest on use, after you take the {@action Attack} you can choose to spend a ki point to negate one effect that would affect the wielder. You may spend multiple ki points to suppress multiple effects.",
+                            "This cannot be used to suppress the personality of a sentient weapon."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Agile Parry",
+                        "entries": [
+                            "If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself. You gain +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}."
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD",
+                "entries": [
+                  "To be decided"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD 2",
+                "entries": [
+                  "More to be decided"
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "BCC",
+      "shortName": "Reluctant Blade"
+    }
+  ]
+}

@@ -701,7 +701,7 @@
 										"entries": [
 											"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself. You gain +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}."
 										]
-									},
+									}
 								]
 							}
 						],
