@@ -121,6 +121,48 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Waterdhavian Winter Gloves",
+      "type": "$",
+      "weight": "1",
+      "rarity": "none",
+      "source": "EHB",
+      "entries":[
+        "A pair of delicate yet well-made gloves. Worn by Waterdhavian locals in the colder months, this pair is sized for an older child or petite woman, and is surprisingly resistant to cold and damp.",
+        {
+          "name": "Clever Craftwork",
+          "type": "entries",
+          "entries": [
+            "While keeping your hands surprisingly warm, anyone holding snow or ice in their hands while wearing these gloves might notice that it melts a lot slower than it should - making for better snowballs! You gain +1 to any ranged snowball attack made while wearing these gloves - but only if outdoors."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toy Slingshot",
+      "type": "R",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": "1 sp",
+			"dmg1": "{@dice 1d2}",
+			"dmgType": "B",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+      "source": "EHB",
+      "entries":[
+        "A sturdy slingshot of treated wood, rubber-like strips and a dark leather pocket.",
+        {
+          "name": "Mischief Managed",
+          "type": "entries",
+          "entries": [
+            "This was gifted to Aricia by Mikael after watching her throw Goodberries at Gailardia. Now she can 'throw' them even further..."
+          ]
+        }
+      ]
     }
   ]
 }
