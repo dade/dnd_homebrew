@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EHB",
+        "abbreviation": "EHB",
+        "full": "Elinari Homebrew - Devotee of Eilistraee",
+        "authors": [
+          "John Wordsworth",
+          "Tegan \"Elinari\" Harris"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Bard",
+      "name": "Devotee of Eilistraee",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Devotee of Eilistraee",
+            "entries": [
+              "Followers of The Dark Maiden combine their talents of music and performance with Eilistraee's blessings on their allies, inspiring courage and repelling darker forces.",
+              {
+                "type": "entries",
+                "name": "Mantle of Inspiration",
+                "entries": [
+                    "As a musically talented devotee of Eilistraee, at 3rd level you gain the ability to weave a song of magic that imbues your allies with vigor and speed.",
+                    "As a bonus action, you can expend one use of your Bardic Inspiration to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and that can see you within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one). Each of them gains 5 temporary hit points. When a creature gains these temporary hit points, it can immediately use its reaction to move up to its speed, without provoking opportunity attacks.",
+                    "The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Song of Transfixion",
+                "entries": [
+                    "By using your skills with song, you channel Eilistraee's will of protection in order to buy valuable time for allies in a dangerous situation.",
+                    "Choose an enemy within 15 feet of you or an ally - it must succeed on a Wisdom save against your spell save DC or be stunned (incapacitated) until the end of its next turn, or until it takes damage.",
+                    "You may use this ability once per short rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+            {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Defiance of Evil",
+                        "entries": [
+                            "WRITE UP STUFF",
+                            "MORE STUFF"
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD",
+                "entries": [
+                  "To be decided"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "TBD 2",
+                "entries": [
+                  "More to be decided"
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "EHB",
+      "shortName": "Eilistraee"
+    }
+  ]
+}
