@@ -179,13 +179,6 @@
       "reqAttune": true,
       "entries": [
         "A less common style of glaive, this weapon has a blade on each of its ends. Wielders have specialised beyond normal two-weapon fighting training to be able to deal more damage in a single flowing move than most other polearm weapons.",
-        {
-          "name": "Two-Handed",
-          "type": "entries",
-          "entries": [
-            "This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
-			    ]
-		    },
 		    {
           "name": "Reach",
           "type": "entries",
