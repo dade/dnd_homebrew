@@ -162,6 +162,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Dual-Bladed Glaive",
+      "type": "M",
+      "weaponCategory": "Martial",
+      "baseItem": "glaive|phb",
+      "weight": "8",
+      "dmg1": "{@dice 1d8}",
+      "dmgType": "S",
+      "property": [
+        "2H"
+      ],
+      "rarity": "Uncommon",
+      "source": "EHB",
+      "reqAttune": true,
+      "entries": [
+        "A less common style of glaive, this weapon has a blade on each of its ends. Wielders have specialised beyond normal two-weapon fighting training to be able to deal more damage in a single flowing move than most other polearm weapons.",
+        {
+          "name": "Two-Handed",
+          "type": "entries",
+          "entries": [
+            "This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
+			    ]
+		    },
+		    {
+          "name": "Reach",
+          "type": "entries",
+          "entries": [
+            "This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
+          ]
+        },
+		    {
+          "name": "Heavy",
+          "type": "entries",
+          "entries": [
+            "Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
+          ]
+        }
+	    ]
     }
   ]
 }
