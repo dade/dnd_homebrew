@@ -1,0 +1,32 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EHB",
+				"abbreviation": "EHB",
+				"full": "Elinari Homebrew",
+				"authors": [
+					"Tegan \"Elinari\" Harris"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0
+	},
+	"feat": [
+		{
+			"name": "Dual-Bladed Master",
+			"source": "EHB",
+			"prerequisite": [
+				{
+					"special": "prof. Martial/prof. Dual-Bladed"
+				}
+			],
+			"entries": [
+				"Your dual-bladed weapon is now effortless to wield; attacks made with this weapon have +2 to damage rolls (d8 becomes d10)."
+			]
+		}
+	]
+}
