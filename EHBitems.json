@@ -47,8 +47,7 @@
           "name": "Vengeance",
           "type": "entries",
           "entries": [
-            "When you use this unsheathed weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3.",
-            "When the weapon is used sheathed, this bonus is +2 instead of +3."
+            "When you use this weapon to attack a target that has caused damage to you in this combat encounter, your bonus to attack and damage rolls against that target increases to +3."
           ]
         },
 		    {
@@ -114,10 +113,38 @@
           ]
         },
         {
+          "name": "Sapphire: North/Front",
+          "type": "entries",
+          "entries": [
+            "(Modify Memory)"
+          ]
+        },
+        {
+          "name": "Sapphire: South/Back",
+          "type": "entries",
+          "entries": [
+            "(Maddening Darkness)"
+          ]
+        },
+        {
+          "name": "Sapphire: East/Right",
+          "type": "entries",
+          "entries": [
+            "(Sequester)"
+          ]
+        },
+        {
+          "name": "Sapphire: West/Left",
+          "type": "entries",
+          "entries": [
+            "(Contact Other Plane)"
+          ]
+        },
+        {
           "name": "Arise",
           "type": "entries",
           "entries":[
-            "If the bearer is attuned to both Aribeth's Atonement and Va'ardalia's Legacy, you gain resistance to spells of all types."
+            "If the bearer is attuned to both Aribeth's Atonement and Va'ardalia's Legacy, they gain resistance to spells of all types."
           ]
         }
       ]
