@@ -116,28 +116,32 @@
           "name": "Sapphire: North/Front",
           "type": "entries",
           "entries": [
-            "(Modify Memory)"
+            "Activating this stone immediately projects a relevant memory into the user's mind. The memory may play out in a number of ways, and over an unpredictable time period.",
+            "The user experiences this memory in the first person, as if they were the original creator. They retain some level of abstract awareness, but cannot influence what happens."
           ]
         },
         {
           "name": "Sapphire: South/Back",
           "type": "entries",
           "entries": [
-            "(Maddening Darkness)"
+            "When activated, the area immediately around the user is plunged into darkness. Even darkvision cannot see through it, and it spreads slowly outwards at a rate of 5 feet every 6 seconds, to a maximum radius of 60 feet from the user.",
+            "The user and anyone else in the area hears whispers from unseen voices. Anyone inside the sphere of darkness who is blood-related to the user must make a DC12 Wisdom saving throw; on a fail, they take 2d8 psychic damage. Other party members must make a DC10 Wisdom saving throw, taking 1d8 psychic damage on a fail."
           ]
         },
         {
           "name": "Sapphire: East/Right",
           "type": "entries",
           "entries": [
-            "(Sequester)"
+            "On activating the stone, the user disappears from sight. They are invisible from all types of sight, cannot be detected by divination magic. The effect lasts for as long as the user keeps physical contact with Aribeth's Atonement.",
+            "The user can still see and hear the world around them, though it is muted and muffled, as if being seen through a heavy gauze curtain. If they interact with an object or creature, the effect is not extended to it."
           ]
         },
         {
           "name": "Sapphire: West/Left",
           "type": "entries",
           "entries": [
-            "(Contact Other Plane)"
+            "The user must make a DC12 Intelligence saving throw on activating this stone; on a failure, they take 2d8 psychic damage and the spell ends. On a success, they are able to make contact with the spirit of either Aribeth or Seldra.",
+            "The user may ask the spirit up to 5 questions that can be answered with a single word ('yes', 'no', 'uncertain', 'danger', etc.) or a short phrase of up to 5 words. The spirit has no visible presence, and cannot be interacted with by anyone except the user."
           ]
         },
         {
@@ -221,7 +225,68 @@
           ]
         }
 	    ]
-    }
+    },
+    {
+			"name": "Paper Hummingbird",
+			"wondrous": true,
+			"rarity": "Rare",
+			"source": "EHB",
+			"entries": [
+				"After you write a message of fifteen words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper hummingbird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
+				"The hummingbird is an object that has 1 hit point, an Armor Class of 15, a flying speed of 100 feet, a Dexterity of 18 (+4), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"Paper Hummingbirds are crafted as needed, as the spells imbued in the parchment are more delicate and difficult."
+			]
+    },
+    {
+			"name": "Paper Raven",
+			"wondrous": true,
+			"rarity": "Rare",
+			"source": "EHB",
+			"entries": [
+				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a paper raven and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
+				"The raven is an object that has 3 hit points, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 14 (+2), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
+        "It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns back into a sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+        "If the recipient has a response to the message, the parchment allows it to write a second message of fifty words or fewer. Once the word limit is reached or when the recipient declares it 'done', the parchment refolds into the raven and returns to the original sender.",
+				"Paper Ravens are crafted as needed, due to the resource cost."
+			]
+    },
+    {
+			"name": "Paper Butterfly: Pieridae (Small)",
+			"wondrous": true,
+			"rarity": "Rare",
+			"source": "EHB",
+			"entries": [
+				"After you write a message of fifteen words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper butterfly and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the butterfly turns into ash as it takes flight.",
+				"The butterfly is an object that has 1 hit point, an Armor Class of 10, a flying speed of 60 feet, a Dexterity of 12 (+1), and a score of 1 (\u22125) in all other abilities.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the butterfly's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"A butterfly that does not find its intended recipient within 3 hours loses integrity and turns to ash."
+			]
+    },
+    {
+			"name": "Paper Butterfly: Riodinidae (Medium)",
+			"wondrous": true,
+			"rarity": "Rare",
+			"source": "EHB",
+			"entries": [
+				"After you write a message of thirty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper butterfly and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the butterfly turns into ash as it takes flight.",
+				"The butterfly is an object that has 1 hit point, an Armor Class of 11, a flying speed of 45 feet, a Dexterity of 12 (+1), and a score of 1 (\u22125) in all other abilities.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the butterfly's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"A butterfly that does not find its intended recipient within 3 hours loses integrity and turns to ash."
+			]
+    },
+    {
+			"name": "Paper Butterfly: Papilionidae (Large)",
+			"wondrous": true,
+			"rarity": "Rare",
+			"source": "EHB",
+			"entries": [
+				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper butterfly and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the butterfly turns into ash as it takes flight.",
+				"The butterfly is an object that has 1 hit point, an Armor Class of 12, a flying speed of 30 feet, a Dexterity of 12 (+1), and a score of 1 (\u22125) in all other abilities.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the butterfly's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"A butterfly that does not find its intended recipient within 3 hours loses integrity and turns to ash."
+			]
+		}
   ]
 }
        
