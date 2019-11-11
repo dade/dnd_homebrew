@@ -1,0 +1,62 @@
+level 1
+gunsmith (ammunition)/tenacity (2 basic 'deeds'/'trick shots' to use it on - deadeye? gunslinger's dodge?)
+level 2
+More options for using tenacity on (disarming shot, for example)
+level 3
+gunsmith 'archetype' (ranged/melee/gadget)
+level 4
+ASI/Feat
+level 5
+Quickdraw (can stow one weapon and draw another in the same turn - one must be gunslinger weapon)
+level 6
+Determined Attack ('Dead Shot' from PF) (uses up all possible action types (attack/bonus/movement) to make a single attack against a single enemy - if the enemy is in cover, the cover bonus is ignored. If the enemy is in the open, makes attack with advantage. Can only do twice per long/short(?) rest)
+  - can work regardless of ranged/melee archetype choice
+level 7
+'Archetype' feature
+level 8
+ASI/Feat
+level 9
+
+level 10
+'Archetype' feature - or can pick up second archetype? Can never spec into all 3
+level 11
+
+level 12
+ASI/Feat
+level 13
+As long as you have at least 1 unspent Tenacity point, you gain the benefit of Uncanny Dodge feature
+level 14
+Slinger's Luck - spend 2 Tenacity to reroll a saving throw, or 1 to reroll a skill check. You must take the result of the second roll, even if it is lower
+level 15
+'Archetype' feature (3rd feature if they haven't spec'd into multiple archetype, otherwise 2nd feature of one of the two chosen archetypes)
+level 16
+ASI/Feat
+level 17
+Vicious Intent (critical on 19 or 20 roll with firearm/primary gunslinger weapon, regain Tenacity point on roll of 19 or 20)
+level 18
+'Archetype' feature, Cheat Death (spend all remaining Tenacity to be reduced to 1 hit point instead of 0 or fewer)
+level 19
+ASI/Feat
+level 20
+
+
+Ranged archetype:
+1:
+2: Rapid Repair (spend a Tenacity to attempt to repair a misfired gun as a bonus action)
+3:
+4: Reload as bonus action
+5: Critical hits now cause target to suffer half of the original damage again at the end of it's next turn
+
+Melee archetype (gunblade?):
+1:
+2: Extra attack?
+3:
+4: If you miss with an attack roll, you can roll it again with advantage (once per short/long rest - basically 'Master Duelist' from Swashbuckler Rogue)
+5: If you score the first hit on a creature, it needs to make a Con save (DC 8 + your Dex modifier + proficiency bonus)- on a fail, double your damage against that creature (based on 'Death Strike' from Assassin Rogue)
+
+'Gadget' archetype:
+1:
+2:
+3:
+4:
+5:
